@@ -1,0 +1,1473 @@
+<!-- https://flowmate.io/automated-flows/ -->
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<style>
+html{line-height:1.15;-webkit-text-size-adjust:100%}details,main{display:block}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;text-decoration:none;color:inherit}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none;display:block}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}body,html{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:16px;height:100%;font-display:swap}*,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit;font-display:inherit}h1,h2,h3,h4,h5,h6{margin:0;font-size:2rem}p{margin:0}ol,ul{list-style-type:none!important;margin:0;padding:0}.primary-color{color:#6557ff}.cta-color{color:#7ef9b4}.neutral-color{color:#0b0b2e}.white-color{color:#fff}.wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:100%}.content{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}.footer{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}.border img{width:100%}.container{max-width:1380px;width:100%;padding:0 30px!important;margin:0 auto}@media (max-width:1023px){.container{padding:0 20px!important}}@media (max-width:767px){.container{padding:0 15px!important}}.nav{display:-webkit-box;display:-ms-flexbox;display:flex}.nav__itme{display:block}.nav__link{display:inline-block;padding:12px 16px;font-weight:600;font-size:16px;-webkit-transition:color .3s;transition:color .3s}.nav__link:hover{color:#6557ff}.nav__mobile{display:none}@media (max-width:767px){.nav{position:absolute;top:0;left:0;height:100vh;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;background-color:#fff;padding:100px 20px 20px;-webkit-transform:translateY(-100%);transform:translateY(-100%)}.header--active .nav{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transition:-webkit-transform .3s;transition:transform .3s;transition:transform .3s,-webkit-transform .3s}.nav__link{text-align:center;width:100%}.nav__itme{border-bottom:1px solid rgba(0,0,0,.03)}.nav__mobile{display:block}}.button-outline{background-color:#0b0b2e;border-radius:4px;padding:10px 16px 12px;font-weight:700;font-size:16px;color:#fff;-webkit-transition:background-color .3s;transition:background-color .3s}.button-outline:hover{background-color:#6557ff}.button-text{display:inline-block;padding:12px 16px;font-weight:600;font-size:16px;-webkit-transition:color .3s;transition:color .3s}.button-text:hover{color:#6557ff}.button-large{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:12px;font-size:16px;font-weight:700;border-radius:8px;padding:18px 24px;color:#fff;-webkit-transition:background-color .3s;transition:background-color .3s}.button-large__arrow{display:block;margin-left:auto}.button-large svg{fill:currentColor}.button-large--green{background-color:#7ef9b4;color:#0b0b2e}.button-large--green:hover{background-color:#5c8}.button-large--black{background-color:#0b0b2e;color:#fff}.button-large--black:hover{background-color:#6557ff}@media (max-width:767px){.button-large{padding:20px;font-size:14px}}.header{padding:32px 0;position:absolute;top:0;left:0;width:100%;background-color:#fff;z-index:1000}.sticky{position:fixed;padding:20px 0;-webkit-box-shadow:1px 1px 20px rgba(0,0,0,.1254901961);box-shadow:1px 1px 20px rgba(0,0,0,.1254901961)}.header__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:24px}.header__logo{position:relative;z-index:1000;max-width:183px}.header__logo img{width:100%}.header__nav{margin-left:auto}.header__buttons{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.burger{display:none;width:28px;height:23px;position:relative;border:none;background-color:transparent;cursor:pointer}.burger__line{position:absolute;width:100%;height:3px;background-color:#6557ff;left:0;border-radius:2px;-webkit-transform-origin:left;transform-origin:left;-webkit-transition:-webkit-transform .3s ease-in-out;transition:transform .3s ease-in-out;transition:transform .3s ease-in-out,-webkit-transform .3s ease-in-out}.burger__line:nth-child(1){top:0}.burger__line:nth-child(2){top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.burger__line:nth-child(3){bottom:0}.header--active{overflow:hidden}@media (max-width:767px){.header{padding:20px 0;-webkit-box-shadow:1px 1px 25px rgba(0,0,0,.1254901961);box-shadow:1px 1px 25px rgba(0,0,0,.1254901961)}.header__logo{max-width:155px}.burger{display:block}.header__buttons{display:none}.header--active .burger__line:nth-child(1){-webkit-transform:rotate(45deg);transform:rotate(45deg)}.header--active .burger__line:nth-child(2){display:none}.header--active .burger__line:nth-child(3){-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}}.intro{padding-top:130px;background-color:#fff;padding-bottom:243px;position:relative;z-index:0}.intro__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.intro__title{font-weight:700;line-height:1.2;font-size:58px;text-align:center;max-width:933px;margin-bottom:24px}.intro__text{font-weight:600;font-size:20px;line-height:1.3;text-align:center;margin-bottom:88px;max-width:732px}.intro__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:10px;min-height:290px}.intro__image,.intro__image img{width:100%}.intro__image--left{margin-right:-80px}.intro__image--right{margin-left:-80px}.intro__border-bottom{width:100%}@media (max-width:1365px){.intro{padding-bottom:140px}.intro__title{font-size:44px}.intro__text{margin-bottom:40px;font-size:18px}}@media (max-width:1023px){.intro__image--left,.intro__image--right{display:none}}@media (max-width:767px){.intro{padding-top:115px;padding-bottom:25%}.intro__wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%;margin-bottom:40px}.intro__title{font-size:24px}.intro__text{font-size:16px;margin-bottom:40px}}.connect{border-radius:24px;padding:40px;background:-webkit-gradient(linear,left top,left bottom,from(#57ffb9),to(#54f5b2));background:linear-gradient(180deg,#57ffb9 0,#54f5b2 100%);max-width:1094px;margin:0 auto;position:absolute;left:30px;right:30px;z-index:200;bottom:0;-webkit-transform:translateY(50%);transform:translateY(50%)}.connect--fisrt{margin-top:-10%}.connect--second{margin-top:-80px}.connect__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.connect__rocket{display:block;margin-right:24px;max-width:72px}.connect__box{max-width:600px;width:100%;margin:auto}.connect__title{color:#0b0b2e;font-weight:700;font-size:24px;line-height:1.3;margin-bottom:2px}.connect__text{font-weight:400;font-size:18px;line-height:1.3}.connect__button{width:100%;max-width:228px;margin-left:20px}@media (max-width:1023px){.connect{padding:25px}.connect__button{margin-left:0}.connect__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-items:center;gap:20px}.connect__rocket{display:none}.connect__text,.connect__title{text-align:center}}@media (max-width:767px){.connect__title{font-size:20px}.connect__text{font-size:14px}.connect{right:10px;left:10px;padding:25px 10px}.connect__inner{gap:10px}}.ai{background-color:#23293d;padding-top:152px;padding-bottom:119px}.ai__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.ai__title{max-width:1240px;font-weight:700;font-size:58px;line-height:1.2;text-align:center;margin-bottom:24px;color:#fff}.ai__text{font-weight:400;font-size:18px;line-height:1.5;text-align:center;margin-bottom:67px;max-width:1092px;color:#fff}.ai__box{display:-webkit-box;display:-ms-flexbox;display:flex}.ai__img{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.ai__img img{width:100%}.ai__lines{display:block;width:100%;-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center;margin-top:-78px;max-width:139px}.ai__lines img{width:100%}.ai__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;max-width:418px;width:100%}.ai__list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:16px;margin-bottom:16px;width:100%}.ai__item{border:2px solid rgba(88,86,214,.3019607843);padding:16px 21px 16px 24px;width:100%;border-radius:12px}.ai__item-title{font-weight:700;font-size:16px;line-height:1.5;color:#5856d6}.ai__item-text{font-weight:500;font-size:14px;line-height:1.5;color:#fff}@media (max-width:1365px){.ai__title{font-size:44px;max-width:940px}.ai__text{font-size:18px}}@media (max-width:1023px){.ai__lines{display:none}.ai__box{gap:20px}.ai__item{padding:15px}.ai__text{margin-bottom:30px}}@media (max-width:767px){.ai{padding-bottom:70px}.ai__title{font-size:24px}.ai__text{font-size:14px;margin-bottom:40px}.ai__box{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:30px}.ai__wrapper{max-width:100%}}.integration{padding-top:204px;padding-bottom:200px;background-color:#6557ff}.integration__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:30px}.integration__left{max-width:500px;-ms-flex-negative:1;flex-shrink:1}.integration__title{font-weight:700;font-size:32px;line-height:1.2;margin-bottom:12px;color:#fff;max-width:396px}.integration__text{font-weight:400;font-size:18px;line-height:1.5;margin-bottom:40px;color:#fff;max-width:461px}.integration__right{max-width:756px;-ms-flex-negative:2;flex-shrink:2}.integration__right img{width:100%}@media (max-width:1365px){.integration{padding:80px 0}.integration__title{font-size:26px}.integration__text{font-size:16px}}@media (max-width:1023px){.integration__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.integration__left,.integration__text,.integration__title{max-width:100%}}@media (max-width:767px){.integration{padding:70px 0}.integration__title{font-size:20px;margin-bottom:22px}.integration__text{font-size:14px;margin-bottom:40px}.integration__inner{gap:30px}}.workflows{padding-top:146px;padding-bottom:176px}.workflows__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:30px}.workflows__left{max-width:512px}.workflows__title{font-weight:700;font-size:32px;line-height:1.2;color:#232343;margin-bottom:12px;max-width:480px}.workflows__text{font-weight:400;font-size:18px;line-height:1.5;margin-bottom:40px}.workflows__right{max-width:760px}.workflows__right img{width:100%}@media (max-width:1365px){.workflows{padding:80px 0}.workflows__title{font-size:26px}.workflows__text{font-size:16px}}@media (max-width:1023px){.workflows__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.workflows__left,.workflows__text,.workflows__title{max-width:100%}}@media (max-width:767px){.workflows{padding:70px 0}.workflows__title{font-size:20px;margin-bottom:24px}.workflows__text{font-size:14px;margin-bottom:40px}}.automation{padding-top:155px;padding-bottom:125px;background-color:#f4f4f7}.automation__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:81px}.automation__left{max-width:704px}.automation__title{font-weight:600;font-size:32px;line-height:1.2;margin-bottom:12px;max-width:550px}.automation__text-top{font-weight:400;font-size:18px;line-height:1.5;margin-bottom:16px;max-width:450px}.automation__text-bottom{font-weight:400;font-size:18px;line-height:1.5;margin-bottom:36px;max-width:450px}.automation__list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;gap:11px;margin-bottom:14px}.automation__list-item{padding:4px 12px 4px 4px;line-height:1.2;text-transform:uppercase;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:8px;border:1px solid rgba(88,86,214,.2);border-radius:50px;color:#5856d6}.automation__list-item-text{font-weight:400;font-size:14px;line-height:1.5}.automation__right{max-width:550px;-ms-flex-item-align:start;align-self:flex-start;padding-top:13px}.automation__left img{width:100%}@media (max-width:1365px){.automation{padding:80px 0}.automation__title{font-size:26px}.automation__text{font-size:16px}}@media (max-width:1023px){.automation__inner{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;gap:30px}.automation__left,.automation__right,.automation__text,.automation__title{max-width:100%}.automation__text-bottom{margin-bottom:30px}}@media (max-width:767px){.automation{padding:70px 0}.automation__title{font-size:20px;margin-bottom:24px}.automation__text{font-size:14px;margin-bottom:30px}.automation__text-bottom,.automation__text-top{font-size:14px}.automation__list-item-text{font-size:12px}}.transition{padding-top:150px;padding-bottom:127px;background-color:#6557ff}.transition__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.transition__left{padding-top:47px;max-width:475px;-ms-flex-item-align:start;align-self:flex-start}.transition__title{font-weight:700;font-size:32px;line-height:1.2;margin-bottom:12px;color:#fff}.transition__text{font-weight:400;font-size:18px;line-height:1.5;color:#fff;margin-bottom:43px;max-width:465px}.transition__right{max-width:760px}.transition__right img{width:100%}@media (max-width:1365px){.transition{padding:80px 0}.transition__title{font-size:26px}.transition__text{font-size:16px}}@media (max-width:1023px){.transition__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:30px}.transition__left{max-width:100%;padding-top:0}.transition__text,.transition__title{max-width:100%}}@media (max-width:767px){.transition{padding:70px 0}.transition__title{font-size:20px;margin-bottom:24px}.transition__text{font-size:14px;margin-bottom:40px}}.impact{padding-top:154px;padding-bottom:160px;background-color:#f4f4f7;position:relative}.impact__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.impact__left{max-width:500px}.impact__title{font-weight:700;font-size:32px;line-height:1.2;margin-bottom:12px}.impact__text-top{font-weight:400;font-size:18px;line-height:1.5;margin-bottom:10px;max-width:400px}.impact__text-middle{font-weight:400;font-size:18px;line-height:1.5;margin-bottom:20px}.impact__text-bottom{font-weight:700;font-size:18px;line-height:1.5;margin-bottom:40px}.impact-list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:10px;gap:10px}.impact-list__item{position:relative;font-weight:700;font-size:18px;line-height:1.5;color:#232343;padding-left:20px}.impact-list__item::before{content:"";position:absolute;top:50%;left:2px;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:7px;height:7px;border-radius:50%;background-color:#6557ff}.impact__right{max-width:585px}.impact__right img{width:100%}@media (max-width:1365px){.impact{padding:80px 0 140px}.impact__title{font-size:26px}.impact__text{font-size:16px}}@media (max-width:1023px){.impact{padding-bottom:25%}.impact__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:30px}.impact__left,.impact__text,.impact__text-top,.impact__title{max-width:100%}}@media (max-width:767px){.impact{padding-top:70px;padding-bottom:35%}.impact__inner{gap:40px}.impact__title{font-size:20px}.impact__text-bottom,.impact__text-middle,.impact__text-top{font-size:14px;margin-bottom:20px}.impact__text-bottom{margin-bottom:40px}.impact-list__item{font-size:14px}}.connectivity{padding-top:136px;padding-bottom:100px;background-color:#6557ff}.connectivity___inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.connectivity__title{color:#fff;font-weight:700;font-size:58px;line-height:1.2;text-align:center;max-width:1130px;margin:0 auto 24px}.connectivity__text{font-weight:600;font-size:20px;line-height:1.3;text-align:center;margin-bottom:23px;color:#fff;max-width:916px}.connectivity__image{margin-bottom:10px}.connectivity__image img{width:100%}.connectivity__text-bottom{font-weight:600;font-size:30px;line-height:1.3;text-align:center;color:#7ef9b4;max-width:550px;margin-bottom:40px}@media (max-width:1365px){.connectivity{padding:120px 0 80px}.connectivity__title{font-size:44px;max-width:900px}.connectivity__text{font-size:18px}}@media (max-width:1023px){.connectivity__left,.connectivity__text,.connectivity__title{max-width:100%}}@media (max-width:767px){.connectivity{padding-top:180px;padding-bottom:70px}.connectivity__title{font-size:20px}.connectivity__text{font-size:14px;margin-bottom:40px}.connectivity__text-bottom{font-size:20px}.connectivity__image{margin-bottom:40px}}.sde-intro{padding-top:60px;background-color:#fff;padding-bottom:243px;position:relative;z-index:0}.sde-intro__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.sde-intro__title{font-weight:700;line-height:1.2;font-size:58px;text-align:center;max-width:933px;margin-bottom:24px}.sde-intro__title span{display:block}.sde-intro__text{font-weight:600;font-size:20px;line-height:1.3;text-align:center;margin-bottom:42px;max-width:740px;color:#232343}.sde-intro__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%}.sde-intro-item--left{margin-right:100px}.sde-intro-item__number{font-family:Lato,sans-serif;font-weight:700;font-size:40px;line-height:1.34;text-align:center;letter-spacing:.06em;text-transform:uppercase;color:#6557ff;margin-bottom:31px}.circle__inner img,.sde-intro-item__image img{max-width:100%;height:auto}@-webkit-keyframes pulseCircle{0%{-webkit-transform:scale(1);transform:scale(1);opacity:.2}100%{-webkit-transform:scale(6);transform:scale(6);opacity:0}}@keyframes pulseCircle{0%{-webkit-transform:scale(1);transform:scale(1);opacity:.2}100%{-webkit-transform:scale(6);transform:scale(6);opacity:0}}.circle{margin:0 auto;position:relative;max-width:140px;width:100%}.circle::after,.circle::before{content:"";position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:100%;border-radius:50%;background:#6557ff;opacity:0;-webkit-animation:2.4s ease-out infinite pulseCircle;animation:2.4s ease-out infinite pulseCircle;z-index:-1}.circle::after{-webkit-animation-delay:1.8s;animation-delay:1.8s}.circle__inner{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.circle__inner::after{content:"";position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:100%;border-radius:50%;background:#6557ff;opacity:0;-webkit-animation:2.4s ease-out .6s infinite pulseCircle;animation:2.4s ease-out .6s infinite pulseCircle;z-index:-1}.sde-intro-item__bottom{margin-top:-15px;z-index:100;position:relative}.sde-intro-item__bottom img{max-width:100%;height:auto}.sde-intro-item__wrapper{min-height:320px;padding-top:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.sde-intro__arrow{-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center;-webkit-transform:translateY(17px);transform:translateY(17px);max-width:42px}.sde-intro__arrow img{max-width:100%;height:auto}@media (max-width:1365px){.sde-intro{padding-bottom:140px}.sde-intro__title{font-size:44px}.sde-intro__text{margin-bottom:40px;font-size:18px}}@media (max-width:1023px){.sde-intro__wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.sde-intro-item--left{margin-right:0}.sde-intro__arrow{display:none}@-webkit-keyframes pulseCircle{0%{-webkit-transform:scale(1);transform:scale(1);opacity:.2}100%{-webkit-transform:scale(4);transform:scale(4);opacity:0}}@keyframes pulseCircle{0%{-webkit-transform:scale(1);transform:scale(1);opacity:.2}100%{-webkit-transform:scale(4);transform:scale(4);opacity:0}}}@media (max-width:767px){.sde-intro-item__number{margin-bottom:10px;font-size:24px}.sde-intro{padding-top:50px;padding-bottom:25%}.sde-intro__wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%;margin-bottom:40px}.sde-intro__title{font-size:24px}.sde-intro__text{font-size:16px;margin-bottom:30px}@-webkit-keyframes pulseCircle{0%{-webkit-transform:scale(1);transform:scale(1);opacity:.2}100%{-webkit-transform:scale(2);transform:scale(2);opacity:0}}@keyframes pulseCircle{0%{-webkit-transform:scale(1);transform:scale(1);opacity:.2}100%{-webkit-transform:scale(2);transform:scale(2);opacity:0}}}.works{padding:140px 0;background-color:#6557ff;color:#fff}.works__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.works__title{font-weight:700;font-size:57px;line-height:1.2;text-align:center;max-width:1320px;margin-bottom:24px}.works--green{color:#7ef9b4}.works__text{max-width:1092px;font-weight:400;font-size:18px;line-height:1.54;text-align:center;margin:0 auto 78px}.works-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;gap:12px;margin-bottom:40px;padding:0!important}.works-list__item{max-width:436px;width:100%;padding:40px 55px 32px;position:relative}.works-list__item::before{content:"";display:block;position:absolute;right:-45px;top:50px;width:90px;height:20px;background-image:url(https://flowmate.io/wp-content/uploads/2025/09/work-arrow.webp);background-repeat:no-repeat;background-size:cover;background-position:center;z-index:110}.works-list__item:last-child::before{display:none}.works-list__item::after{content:"";display:block;position:absolute;right:-55px;bottom:80px;width:110px;height:110px;background-image:url(https://flowmate.io/wp-content/uploads/2025/09/work-block.webp);background-repeat:no-repeat;background-size:cover;background-position:center;z-index:110}.works-list__item:last-child::after{display:none}.works-list__border{position:absolute;top:0;left:0;right:0;bottom:0;z-index:0;width:100%;height:100%}.works-list__title{font-weight:700;font-size:32px;line-height:1.21;text-align:center;margin-bottom:43px}.works-list__title span{color:#fefc8d}.works-list__image{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.works-list__image img{height:auto;max-width:100%}.works__button{margin:0 auto}@media (max-width:1365px){.works__title{font-size:44px}.works__text{font-size:18px}}@media (max-width:1280px){.works{padding:120px 0}.works__title{font-size:44px}.works-list__title{margin-bottom:20px;font-size:26px}.works-list__item{padding:40px 37px 32px}.works-list__item::after{width:80px;height:80px;right:-45px}.works__text{margin-bottom:40px}}@media (max-width:1023px){.works-list{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:30px;margin-bottom:40px}.works-list__item::before{right:-20px;top:auto;bottom:-25px;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.works-list__item::after{right:50%;-webkit-transform:translateX(50%);transform:translateX(50%);top:auto;bottom:-50px}}@media (max-width:787px){.works{padding-top:160px;padding-bottom:100px}.works__title{font-size:24px}.works__text{font-size:16px}}.trigger{padding:166px 0 120px;background-color:#23293d;color:#fff}.trigger__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.trigger__title{font-weight:700;font-size:58px;line-height:1.21;text-align:center;margin-bottom:12px;max-width:1260px}.trigger__title span{color:#7ef9b4}.trigger__text{font-weight:400;font-size:18px;line-height:1.54;text-align:center;margin-bottom:60px}.trigger__subtitle{font-weight:400;font-size:24px;line-height:1.21;text-align:center;text-transform:uppercase;margin-bottom:126px;color:#7b7f8b}.trigger-list{border-top:1px solid #7b7f8b;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:57px;margin-bottom:85px;padding:24px 0 0!important}.trigger-list__item{position:relative;max-width:276px;width:100%;text-align:center}.trigger-list__number{position:absolute;left:50%;top:-83px;-webkit-transform:translateX(-50%);transform:translateX(-50%);font-weight:700;font-size:32px;line-height:1.21;text-align:center;color:#7ef9b4}.trigger-list__number::after,.trigger-list__number::before{content:"";position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);bottom:-25px;display:block;width:10px;height:10px;background-color:#7ef9b4;border-radius:50%}.trigger-list__number::after{-webkit-animation:1s ease-out infinite littlePulse;animation:1s ease-out infinite littlePulse}.trigger-list__text{font-weight:400;font-size:16px;line-height:1.21;text-align:center}.image-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;margin-bottom:60px}.image-list__item img{height:auto;max-width:100%}@-webkit-keyframes littlePulse{0%{-webkit-transform:translateX(-50%) scale(1);transform:translateX(-50%) scale(1);opacity:.6}100%{-webkit-transform:translateX(-50%) scale(2.5);transform:translateX(-50%) scale(2.5);opacity:0}}@keyframes littlePulse{0%{-webkit-transform:translateX(-50%) scale(1);transform:translateX(-50%) scale(1);opacity:.6}100%{-webkit-transform:translateX(-50%) scale(2.5);transform:translateX(-50%) scale(2.5);opacity:0}}@media (max-width:1365px){.trigger__title{font-size:44px}.trigger__text{font-size:18px}}@media (max-width:1280px){.trigger{padding:120px 0}.trigger__title{font-size:44px}.trigger__subtitle{font-size:36px}.trigger-list__title{margin-bottom:20px;font-size:26px}.trigger-list__item{padding:40px 37px 32px}.trigger-list__item::after{width:80px;height:80px;right:-45px}.trigger__text{margin-bottom:40px}}@media (max-width:1023px){.trigger-list{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:100px;margin-bottom:40px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:none}.trigger-list__item{max-width:475px;padding:0}.image-list{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:20px}.image-list__item{width:74%}.image-list__item img{width:100%}.image-list__arrow{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.trigger-list__item::before{right:-20px;top:auto;bottom:-25px;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.trigger-list__item::after{right:50%;-webkit-transform:translateX(50%);transform:translateX(50%);top:auto;bottom:-50px}}@media (max-width:787px){.trigger{padding:100px 0}.trigger__title{font-size:24px}.trigger__text{font-size:16px}.trigger__subtitle{font-size:20px;margin-bottom:90px}}.user{background-color:#f4f4f7;padding:110px 0 160px;position:relative}.user__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:20px}.user__left{max-width:499px;width:100%}.user__title{font-weight:700;font-size:32px;line-height:1.2;margin-bottom:12px}.user__title span{color:#6557ff}.user__text{font-weight:400;font-size:18px;line-height:1.54;margin-bottom:40px;color:#232343;max-width:455px}.user__right{max-width:760px;width:100%}.user__right img{width:100%;max-width:100%;height:auto}@media (max-width:1365px){.user__title{font-size:26px}.user__text{font-size:16px}}@media (max-width:1023px){.user__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.user__left,.user__text,.user__title{max-width:100%}}@media (max-width:767px){.user__title{font-size:20px;margin-bottom:22px}.user__text{font-size:14px;margin-bottom:40px}.user__inner{gap:30px}}.app{background-color:#000;padding:110px 0 160px;position:relative;color:#fff}.app__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:50px}.app__left{max-width:499px;width:100%}.app__title{font-weight:700;font-size:32px;line-height:1.2;margin-bottom:12px}.app__title span{color:#7ef9b4}.app__text{font-weight:400;font-size:18px;line-height:1.54;margin-bottom:40px;max-width:455px}.app__right{max-width:700px;width:100%}.app__right img{max-width:100%;height:auto}@media (max-width:1365px){.app{padding-top:160px}.app__title{font-size:26px}.app__text{font-size:16px}}@media (max-width:1023px){.app__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.app__left,.app__text,.app__title{max-width:100%}}@media (max-width:767px){.app{padding-bottom:100px}.app__title{font-size:20px;margin-bottom:22px}.app__text{font-size:14px;margin-bottom:40px}.app__inner{gap:30px}}.builder{background-color:#f4f4f7;padding:110px 0 160px;position:relative}.builder__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:20px}.builder__left{max-width:480px;width:100%}.builder__title{font-weight:700;font-size:32px;line-height:1.2;margin-bottom:12px;max-width:480px}.builder__title span{color:#6557ff}.builder__text{font-weight:400;font-size:18px;line-height:1.54;margin-bottom:40px;max-width:455px}.builder__right{max-width:670px;width:100%}.builder__right img{width:100%;max-width:100%;height:auto}@media (max-width:1365px){.builder__title{font-size:26px}.builder__text{font-size:16px}}@media (max-width:1023px){.builder__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.builder__left,.builder__text,.builder__title{max-width:100%}}@media (max-width:767px){.builder{padding-top:100px}.builder__title{font-size:20px;margin-bottom:22px}.builder__text{font-size:14px;margin-bottom:40px}.builder__inner{gap:30px}}.features{background-color:#f4f4f7;padding:120px 0}.features__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.features__title{font-weight:700;font-size:58px;line-height:1.21;text-align:center;margin-bottom:24px}.features__title span{color:#6557ff}.features__text{font-weight:600;font-size:20px;line-height:1.34;text-align:center;max-width:992px;margin-bottom:57px}.features-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center;width:100%;gap:24px;padding:0!important} 
+.features-list__item {
+    position: relative;
+    max-width: 538px;
+    border-radius: 28.03px;
+    padding: 28px;
+    background-color: #ffffff;
+    width: 100%;
+    border: 2px solid #fff;
+    transition: border-color 0.4s ease-out;}
+.features-list__item:hover {
+    border-color: #6557ff;
+}.features-list__left{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:100%}.features-list__title{font-weight:700;font-size:24px;line-height:1.34;margin-bottom:8px;color:#6557ff}.features-list__text{font-weight:400;font-size:20px;line-height:1.34;margin-bottom:24px;max-width:363px}.features-list__link{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:12px;color:#6557ff;margin-top:auto}.features-list__link-text{font-weight:700;font-size:16px}.features-list__right{position:absolute;top:28px;right:29px}@media (max-width:1365px){.features__title{font-size:26px}.features__text{font-size:16px}}@media (max-width:1023px){.features__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.features__text,.features__title{max-width:100%}.features-list{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.features-list__item{max-width:100%}.features-list__text{max-width:86%}}@media (max-width:767px){.features{padding-top:70px}.features-list__item{padding:30px}.features-list__right{top:20px;right:20px}.features-list__right svg{width:45px;height:45px}.features-list__title{font-size:20px;margin-bottom:8px}.features-list__link-text,.features-list__text{font-size:16px}.features__title{font-size:20px;margin-bottom:22px}.features__text{font-size:14px;margin-bottom:40px}}.footer{padding:90px 0;background-color:#fff}.footer__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;gap:60px}.footer__logo{margin-right:auto}.footer-col{max-width:287px;width:100%}.footer-col__title{font-weight:700;font-size:18px;line-height:1;margin-bottom:24px}.footer-col__list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:16px}.footer-col__link{font-weight:400;font-size:18px;line-height:1;-webkit-transition:color .3s;transition:color .3s}.footer-col__link:hover{color:#6557ff}.address{font-weight:400;font-size:18px;line-height:1.5;margin-bottom:24px;max-width:203px}.social{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:16px}.social__link svg{-webkit-transition:fill .3s;transition:fill .3s}.social__link:hover svg{fill:#6557ff}@media (max-width:1023px){.footer__inner{gap:30px}}@media (max-width:767px){.footer{padding:40px 0}.footer__logo{margin-right:0}.footer__inner{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.footer-col{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.address,.footer-col__item{text-align:center}.footer-col__link{padding:15px}}.platform{padding:100px 0;background-color:#fff}.platform__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.platform__title{font-weight:700;font-size:58px;line-height:1.2;max-width:1200px;margin-bottom:24px}.platform__text{max-width:828px;font-weight:400;font-size:20px;line-height:1.3;margin-bottom:56px}.tabs{display:-webkit-box;display:-ms-flexbox;display:flex;color:#6557ff;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:20px}.tabs__button--active{background-color:#6557ff;color:#fff}.tabs__button--active .tabs__button-icon svg{fill:#fff}.tabs__button--active .tabs__button-content-link{color:#fff}.tabs__button--active .tabs__button-content-hidden{max-height:347px;opacity:1;-webkit-transition:1s;transition:1s}.tabs__button--active .tabs__button-content-text{color:#fff}.tabs__buttons{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:24px;max-width:537px;width:100%}.tabs__button{gap:48px;opacity:1;border-radius:28.03px;border-width:2px;width:100%;padding:28px;border:2px solid rgba(11,11,46,.1019607843);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer;-webkit-transition:border-color .2s;transition:border-color .2s}.tabs__button:hover{border-color:#6557ff}.tabs__button-content{max-width:347px;-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center}.tabs__button-content-title{font-weight:700;font-size:24px;line-height:1.3}.tabs__button-content-text{font-weight:400;font-size:20px;line-height:1.3;padding-bottom:24px;padding-top:8px;color:#6557ff}.tabs__button-content-link{font-weight:700;font-size:16px;line-height:1;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:10px;color:#6557ff}.tabs__button-content-hidden{max-height:0;overflow:hidden}.tabs__button-icon{max-width:56px;-ms-flex-item-align:start;align-self:flex-start;margin-left:auto}.tabs__button-content-link svg{fill:#fff}.tabs__button-icon svg{width:56px;fill:#6557ff}.tabs__contents{position:relative;width:100%;max-width:645px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.tabs__contents-image{position:absolute;top:0;left:0;width:100%;opacity:0;-webkit-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out}.tabs__contents-image--active{opacity:1}.tabs--mobile{display:none}@media (max-width:1365px){.platform__title{font-size:44px;max-width:920px}.platform__text{font-size:18px}.tabs__button{padding:20px}.tabs__button-content-title{font-size:20px}.tabs__button-content-text{font-size:16px}}@media (max-width:1023px){.tabs__contents-image{position:static;display:none}.tabs__contents-image--active{opacity:1;display:block}.tabs--mobile{display:-webkit-box;display:-ms-flexbox;display:flex}.tabs--desktop{display:none}.tabs__contents{max-width:100%}.tabs{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.tabs__button{gap:10px}.tabs__button-content{max-width:100%}.tabs__button-content-text{margin-bottom:10px}.tabs__buttons{max-width:100%;gap:30px}.tabs__button-icon svg{width:30px}}@media (max-width:767px){.platform__title{font-size:30px;margin-bottom:24px}.platform__text{margin-bottom:40px}}
+
+  .sde-intro {
+    padding-bottom: 115px;
+  }
+.sde-intro__title {
+    width: 100%;
+    max-width: 100%;
+}
+.sde-intro__title span {
+    display: inline-block;
+}
+.af-image-pc {
+    display: block;
+    width: 100%;
+}
+.af-image-mobile {
+    display: none;
+}
+@media (max-width: 768px) {
+    .af-image-pc {
+        display: none;
+    }
+    .af-image-mobile {
+        display: block;
+        width: 100%;
+    }
+}
+  .works {
+    padding: 140px 0 100px;
+  }
+.works--green {
+    display: block;
+}
+.works__text {
+    max-width: 700px;
+  margin: 0 auto 55px;
+}
+.af-green-appercase {
+    font-family: lato;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 134%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #39eca2;
+    max-width: 750px;
+}
+  .trigger {
+    padding: 88px 0;
+  }
+.trigger__title span {
+    display: block;
+}
+.trigger__text {
+    max-width: 750px;
+}
+.display-block {
+    display: block;
+}
+.bg-black {
+    background-color: #000;
+}
+
+.cases {
+    width: 100%;
+    margin-top: 50px;
+}
+.cases .case {
+    width: 100%;
+    background-image: url("https://flowmate.io/wp-content/uploads/2025/11/dotted-border-scaled.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    padding: 0 20px 0 30px;
+}
+.cases .case__label {
+    position: absolute;
+    left: 25px;
+    top: -22px;
+    background-color: #6557FF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 134%;
+    color: #fff;
+    padding: 5px;
+}
+.cases .case__body {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cases .collumns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cases .col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+.cases .col.col-last{
+    display: block;
+}
+.cases .arrow-wrapper {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.cases .row-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+    opacity: 0.8;
+}
+.text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    position: relative;
+    width: 100%;
+    max-width: 430px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff49;
+}
+.cases .row-top__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 134%;
+    color: #fff;
+}
+.cases .row-top__text span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 134%;
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 5px;
+}
+.cases .row-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.cases .step {
+    border: 1px solid #fff;
+    border-radius: 38px;
+    padding: 20px 16px;
+    width: fit-content;
+    min-width: 126px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.cases .step-number {
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #0b0b2e;
+}
+.cases .step-text {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    padding: 0 9px;
+}
+.cases #case_3 .col:last-child  {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  	max-width: fit-content;
+}
+.create-task {
+    margin-top: 47px;
+}
+#case_1 .step-2 {
+    border: 1px solid #55f6b3;
+}
+#case_1 .step-2 .step-number {
+    background: #55f6b3;
+}
+#case_1 .step-3 {
+    border: 1px solid #d5d1ff;
+}
+#case_1 .step-4 {
+    border: 1px solid #55f6b3;
+    background: #55f6b3;
+}
+#case_1 .step-4 .step-text {
+    color: #0b0b2e;
+}
+#case_2 .step-1 {
+    border: 1px solid #F95C35;
+}
+#case_2 .step-1 .step-number {
+    background: #F95C35;
+}
+#case_2 .step-2 {
+    border: 1px solid #d5d1ff;
+}
+#case_2 .step-3 {
+    border: 1px solid #d5d1ff;
+}
+#case_2 .step-4 {
+    border: 1px solid #F95C35;
+    background: #F95C35;
+}
+#case_2 .step-4 .step-text {
+    color: #fff;
+}
+  .connectivity {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.trigger-image-first, .trigger-image-last {
+    margin-top: 32px;
+}
+.trigger-image-first {
+    margin-right: 30px;
+}
+.trigger-image-last {
+    margin-left: 30px;
+}
+.image-list {
+    position: relative;
+}
+.image-list > * {
+    z-index: 2;
+}
+.image-list-dotts {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    z-index: 1;
+}
+.image-list__item {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.af-list-item-text-1, .af-list-item-text-2 {
+    display: block;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 134%;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    width: calc(100% + 75px);
+}
+.af-list-item-text-1, .af-list-item-text-2 span {
+    color: #7ef9b4;
+}
+.af-list-item-text-1 {
+    right: -50px;
+}
+.af-list-item-text-2 {
+    left: -40px;
+}
+.af-top-text {
+    border: 1px solid #d0cbff;
+    border-radius: 30px;
+    padding: 14px 28px;
+    width: fit-content;
+    height: 44px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #0b0b2e;
+    margin-bottom: 30px;
+}
+.af-top-text span {
+    color: #6557ff;
+}
+.af-top-text.af-top-text-2 {
+    color: #fff;
+}
+.af-top-text.af-top-text-2 span {
+    color: #7ef9b4;
+}
+.image-list__item--center .af-list-item-text-1, .image-list__item--center .af-list-item-text-2 {
+    display: none;
+}
+.image-list__item--center .af-list-item-text-1 {
+    left: 0;
+    right: initial;
+}
+.image-list__item--center .af-list-item-text-2 {
+    right: 0;
+    left: initial;
+}
+.user {
+    padding: 100px 0 135px;
+  }
+.app__left {
+    max-width: 555px;
+    width: 100%;
+}
+.user__left {
+    max-width: 505px;
+    width: 100%;
+}
+.app {
+    padding: 160px 0 220px;
+  }
+.app__title span {
+    display: block;
+}
+.connect__text {
+    color: #0b0b2e;
+}
+.connectivity__text-bottom {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 134%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #39eca2;
+    max-width: 650px;
+}
+.sde-intro__text {
+    max-width: 820px;
+    margin-bottom: 15px;
+}
+.integration {
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+.app__title.white-title {
+	color: #fff;
+}
+  .integration__left {
+     max-width: 555px;
+  }
+  .integration__right {
+    max-width: 700px; 
+  }
+  .integration__title {
+    width: 100%;
+    max-width: 100%;
+  }
+  .hris .user__left {
+        max-width: 555px;
+  }
+.hris .user__right {
+    max-width: 620px;
+  }
+
+@media (max-width: 1360px) {
+    .cases .case__body {
+        display: block;
+    }
+    .cases .case {
+        padding-bottom: 30px;
+        background-image: url("https://flowmate.io/wp-content/uploads/2025/11/dotted-border-tablet-1.png");
+    }
+    .cases .row-top {
+        margin-bottom: 24px;
+    }
+    .cases .arrow-wrapper {
+        position: absolute;
+        top: 95%;
+        right: 46%;
+        transform: rotate(60deg);
+    }
+    .cases .collumns {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 1280px) {
+    .works {
+        padding: 150px 0 120px;
+    }
+    .works__title {
+        font-size: 38px;
+    }
+}
+@media (max-width: 1200px) {
+    .cases .case {
+        background-image: url("https://flowmate.io/wp-content/uploads/2025/11/dotted-border-1100-350.png");
+    }
+}
+@media (max-width: 1100px) {
+    .cases .case {
+        background-image: url("https://flowmate.io/wp-content/uploads/2025/11/dotted-border-1000-350.png");
+    }
+}
+@media (max-width: 1023px) {
+    .only-pc {
+        display: none;
+    }
+    .image-list {
+        position: relative;
+    }
+    .image-list-dotts {
+        left: 50%;
+        top: calc(50% - 350px);
+        width: 1px;
+        height: 750px;
+        z-index: 1;
+    }
+    .trigger-image-first, .trigger-image-last {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .image-list__item--center .af-list-item-text-1 {
+        display: block;
+        max-width: 210px;
+    }
+    .image-list__item--center .af-list-item-text-2 {
+        display: block;
+        max-width: 175px;
+        top: initial;
+        bottom: 60px;
+    }
+  .app__right img {
+    margin: 0 auto;
+	}
+}
+@media (max-width: 900px) {
+    .cases .case {
+        background-image: url("https://flowmate.io/wp-content/uploads/2025/11/dotted-border-800-350.png");
+    }
+}
+@media (max-width: 820px) {
+		  .works {
+        min-height: 1745px;
+      }
+    .cases {
+			position: relative;
+			margin-top: 120px;
+    }
+    .cases .case {
+        background-image: url("https://flowmate.io/wp-content/uploads/2025/11/dotted-border-700.png");
+        position: initial;
+        padding: 0 !important;
+        height: 0;
+        margin-bottom: 0;
+    }
+    .collumns, .col, .row-top, .row-bottom {
+        flex-direction: column;
+    }
+    .second-image {
+        margin-left: 40px;
+    }
+    .case {
+        padding: 45px 10px !important;
+    }
+    .case-arrow {
+        transform: rotate(90deg);
+    }
+		 .cases #case_2 .case__label {
+        left: 125px;
+    }
+    .cases #case_3 .case__label {
+        left: 240px;
+    }
+    .cases #case_2.case.animate__.animate__fadeIn.wow.animated {
+        visibility: visible !important;
+    }
+    .cases #case_3.case.animate__.animate__fadeIn.wow.animated {
+        visibility: visible !important;
+    }
+    .cases .col-last svg {
+        transform: rotate(90deg);
+    }
+    .cases .step-number svg {
+        transform: rotate(0);
+    }
+    .cases .col-last .text-wrapper svg {
+        transform: rotate(0);
+    }
+    .cases .col-last .last-svg {
+        transform: rotate(90deg) translate(-15px, 0);
+    }
+		.cases #case_3 .col:last-child  {
+   		margin: 0 auto;
+		}
+		    .cases .case .image-4 {
+        margin-left: 15px;
+    }
+    .cases .case.active-tab {
+        padding: 45px 10px !important;
+        height: auto;
+    }
+    .cases .case.active-tab .case__label {
+        cursor: default;
+        color: #7EF9B4;
+    }
+    .cases .case__label {
+        cursor: pointer;
+        top: -65px;
+        left: 15px;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 768px) {
+    .cases .case {
+        background-image: url("https://flowmate.io/wp-content/uploads/2025/11/dotted-border-400.png");
+    }
+    .row-top__text {
+        width: 100%;
+        text-align: center;
+        align-items: flex-end;
+    }
+    .row-top__text span {
+        display: block;
+    }
+    .cases .text-wrapper {
+        align-items: flex-end;
+    }
+    .cases .text-wrapper svg {
+        margin-bottom: 6px;
+    }
+    .cases {
+        position: relative;
+        margin-top: 120px;
+    }
+  
+    .works__title {
+        font-size: 24px;
+    }
+    .af-green-appercase {
+        font-size: 20px;
+    }
+    .builder {
+        padding: 100px 0 40px;
+    }
+    .user {
+        padding: 100px 0;
+    }
+    .app {
+      padding-top: 88px;
+        padding-bottom: 80px;
+    }
+  .app.bg-black {
+    padding-bottom: 180px;
+  }
+    .image-list__item--center .af-list-item-text-1, .image-list__item--center .af-list-item-text-2 {
+        max-width: 120px;
+    }
+  .af-top-text {
+    padding: 14px 22px;
+    font-size: 15px;
+  }
+	.connectivity__text-bottom {
+    font-size: 19px;
+  }
+}
+@media (max-width: 500px) {
+    .image-list__item {
+        width: 95%;
+    }
+  .af-top-text {
+    font-size: 13px;
+  }
+}
+
+@keyframes animate-opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+</style>
+
+
+
+
+<div class="wrapper">
+		<main class="content">
+			<div class="sde-intro">
+				<div class="container">
+					<div class="sde-intro__inner">
+						<h1 class="sde-intro__title">
+							Empower Your Users To <span class="primary-color">Automate Everything</span> With any <span class="primary-color">SaaS directly</span> inside <span class="primary-color">your app.</span>
+						</h1>
+						<p class="sde-intro__text">
+							Embed a branded UI for self-service workflow configuration and authentication, and deliver seamless integrations to all 3rd-party apps as a feature of your product.
+						</p>
+						<div class="sde-intro__wrapper">
+							<div class="sde-intro-item">
+								<div class="sde-intro-item__image">
+									<picture>
+										<source media="(min-width: 768px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/af-hero.png">
+										<img src="https://flowmate.io/wp-content/uploads/2025/11/af-hero-mobile.png" alt="backgound">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- green banner -->
+				<div class="connect connect--fisrt animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+					<div class="continaer">
+						<div class="connect__inner">
+							<img class="connect__rocket" src="https://flowmate.io/wp-content/uploads/2025/09/rocket-sharp.svg" class="no-picture" alt="rocket sharp">
+							<div class="connect__box">
+								<h2 class="connect__title">
+									Unlock Your Embedded Automation Potential
+								</h2>
+								<p class="connect__text">
+									Deliver real value - launch automations with all the integrations your customers need, embedded directly in your app within days.
+								</p>
+							</div>
+							<a class="connect__button button-large button-large--black" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+								<div class="button-large__text">
+									Start Automating
+								</div>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+									<path
+										d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="border" style="background-color: #fff">
+				<img src="https://flowmate.io/wp-content/uploads/2025/09/works-line.png" alt="border" height="32" style="max-width: 100%; height: auto">
+			</div>
+	
+	
+			<section class="works">
+				<div class="container">
+					<div class="works__inner">
+						<div class="works__title animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+							<span class="works--green">No Two Customer Workflows are the Same.</span> 
+							Each Requires Tailored Configuration and Logic.
+						</div>
+						<div class="works__text animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+							From custom fields to dynamic mapping, every customer expects tailored automation. Building the configuration UI, workflow logic, and all integrations from scratch takes significant time and resources most SaaS companies don’t have.
+						</div>
+						<h3 class="af-green-appercase animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+							Every CRM uses different values. Customers expect these mapped into tailored workflows
+						</h3>
+						<div class="cases">
+							<div id="case_1" class="case animate__ animate__fadeIn wow animated">
+								<div class="case__label">
+									Case 01
+								</div>
+								<div class="case__body">
+									<div class="collumns">
+										<div class="col">
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-1-1.png" alt="" width="120" height="119">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#55F6B3" />
+												<path d="M6 9.99512H14" stroke="#6557FF" />
+												<path d="M10.0049 6L10.0049 14" stroke="#6557FF" />
+											</svg>
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-1-2.png" alt="" class="second-image" width="159" height="119">
+										</div>
+										<div class="col">
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-1-3.png" alt="" width="190" height="190">
+											<div class="arrow-wrapper">
+												<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M1.83679 0.0547724L10.6203 4.16164C10.8757 4.2817 11.1695 4.19886 11.2999 3.97299L12.5776 1.75993C12.7844 1.40174 13.3397 1.4455 13.5309 1.83576L17.9416 10.7218C18.1033 11.0494 17.8939 11.4122 17.5293 11.4359L7.62959 12.0629C7.19732 12.0901 6.88179 11.6311 7.08728 11.2752L8.36498 9.06215C8.49539 8.83628 8.41777 8.53898 8.18856 8.37927L0.240137 2.82593C0.00846566 2.6648 -0.0666939 2.36892 0.0637113 2.14305L1.15701 0.249406C1.28759 0.0175547 1.58141 -0.0652945 1.83679 0.0547724Z" fill="#7EF9B4" />
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="col col-last">
+										<div class="row-top">
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-1-4.png" alt="" width="60" height="60">
+											<div class="text-wrapper">
+												<div class="row-top__text">
+													<span>Opportunity:</span> US West Coast - New Customer
+												</div>
+												<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M1 1L7.37817 7.37817L13.7563 1" stroke="#55F6B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</div>
+										</div>
+										<div class="row-bottom">
+											<div class="step step-1">
+												<div class="step-number">1</div>
+												<div class="step-text">Sign-up</div>
+											</div>
+											<svg class="case-arrow" width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.491417 4.40168L10.1516 3.56656C10.4328 3.54285 10.6458 3.32419 10.6458 3.06338L10.6458 0.507962C10.6458 0.0943531 11.1486 -0.145382 11.5093 0.0969881L19.7721 5.58718C20.076 5.79003 20.076 6.20891 19.7721 6.41176L11.5122 11.9046C11.1514 12.1443 10.6487 11.9046 10.6487 11.4936L10.6487 8.9382C10.6487 8.67739 10.4328 8.45873 10.1545 8.43502L0.494257 7.5999C0.213056 7.57619 2.65e-05 7.35753 2.64886e-05 7.09672L2.6393e-05 4.91013C-0.00281366 4.64405 0.210216 4.42539 0.491417 4.40168Z" fill="white" />
+											</svg>
+											<div class="step step-2">
+												<div class="step-number">2</div>
+												<div class="step-text">Sales Demo</div>
+											</div>
+											<svg class="case-arrow" width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.491417 4.40168L10.1516 3.56656C10.4328 3.54285 10.6458 3.32419 10.6458 3.06338L10.6458 0.507962C10.6458 0.0943531 11.1486 -0.145382 11.5093 0.0969881L19.7721 5.58718C20.076 5.79003 20.076 6.20891 19.7721 6.41176L11.5122 11.9046C11.1514 12.1443 10.6487 11.9046 10.6487 11.4936L10.6487 8.9382C10.6487 8.67739 10.4328 8.45873 10.1545 8.43502L0.494257 7.5999C0.213056 7.57619 2.65e-05 7.35753 2.64886e-05 7.09672L2.6393e-05 4.91013C-0.00281366 4.64405 0.210216 4.42539 0.491417 4.40168Z" fill="white" />
+											</svg>
+											<div class="step step-3">
+												<div class="step-number">3</div>
+												<div class="step-text">Qualified</div>
+											</div>
+											<svg class="case-arrow" width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.491417 4.40168L10.1516 3.56656C10.4328 3.54285 10.6458 3.32419 10.6458 3.06338L10.6458 0.507962C10.6458 0.0943531 11.1486 -0.145382 11.5093 0.0969881L19.7721 5.58718C20.076 5.79003 20.076 6.20891 19.7721 6.41176L11.5122 11.9046C11.1514 12.1443 10.6487 11.9046 10.6487 11.4936L10.6487 8.9382C10.6487 8.67739 10.4328 8.45873 10.1545 8.43502L0.494257 7.5999C0.213056 7.57619 2.65e-05 7.35753 2.64886e-05 7.09672L2.6393e-05 4.91013C-0.00281366 4.64405 0.210216 4.42539 0.491417 4.40168Z" fill="white" />
+											</svg>
+											<div class="step step-4">
+												<div class="step-number">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7.95801 15L3.20801 10.25L4.39551 9.06246L7.95801 12.625L15.6038 4.97913L16.7913 6.16663L7.95801 15Z" fill="#0B0B2E" />
+													</svg>
+												</div>
+												<div class="step-text">Proposal</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="case_2" class="case animate__ animate__fadeIn wow animated">
+								<div class="case__label">
+									Case 02
+								</div>
+								<div class="case__body">
+									<div class="collumns">
+										<div class="col">
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-2-1.png" alt="" width="120" height="119">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#F95C35" />
+												<path d="M6 9.99512H14" stroke="white" />
+												<path d="M10.0049 6L10.0049 14" stroke="white" />
+											</svg>
+											<circle cx="10" cy="10" r="10" fill="#F95C35" />
+											</svg>
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-1-2.png" alt="" class="second-image" width="159" height="119">
+										</div>
+										<div class="col">
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-2-3.png" alt="" width="190" height="190">
+											<div class="arrow-wrapper">
+												<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M1.83679 0.0547724L10.6203 4.16164C10.8757 4.2817 11.1695 4.19886 11.2999 3.97299L12.5776 1.75993C12.7844 1.40174 13.3397 1.4455 13.5309 1.83576L17.9416 10.7218C18.1033 11.0494 17.8939 11.4122 17.5293 11.4359L7.62959 12.0629C7.19732 12.0901 6.88179 11.6311 7.08728 11.2752L8.36498 9.06215C8.49539 8.83628 8.41777 8.53898 8.18856 8.37927L0.240137 2.82593C0.00846566 2.6648 -0.0666939 2.36892 0.0637113 2.14305L1.15701 0.249406C1.28759 0.0175547 1.58141 -0.0652945 1.83679 0.0547724Z" fill="#F95C35" />
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="col col-last">
+										<div class="row-top">
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-2-4.png" alt="" width="60" height="60">
+											<div class="text-wrapper">
+												<div class="row-top__text">
+													<span>DEAL PIPELINE:</span> Discovery - EMEA deals
+												</div>
+												<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M1 1L7.37817 7.37817L13.7563 1" stroke="#55F6B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</div>
+										</div>
+										<div class="row-bottom">
+											<div class="step step-1">
+												<div class="step-number">1</div>
+												<div class="step-text">New Lead</div>
+											</div>
+											<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.491417 4.40168L10.1516 3.56656C10.4328 3.54285 10.6458 3.32419 10.6458 3.06338L10.6458 0.507962C10.6458 0.0943531 11.1486 -0.145382 11.5093 0.0969881L19.7721 5.58718C20.076 5.79003 20.076 6.20891 19.7721 6.41176L11.5122 11.9046C11.1514 12.1443 10.6487 11.9046 10.6487 11.4936L10.6487 8.9382C10.6487 8.67739 10.4328 8.45873 10.1545 8.43502L0.494257 7.5999C0.213056 7.57619 2.65e-05 7.35753 2.64886e-05 7.09672L2.6393e-05 4.91013C-0.00281366 4.64405 0.210216 4.42539 0.491417 4.40168Z" fill="white" />
+											</svg>
+											<div class="step step-2">
+												<div class="step-number">2</div>
+												<div class="step-text">Prospect</div>
+											</div>
+											<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.491417 4.40168L10.1516 3.56656C10.4328 3.54285 10.6458 3.32419 10.6458 3.06338L10.6458 0.507962C10.6458 0.0943531 11.1486 -0.145382 11.5093 0.0969881L19.7721 5.58718C20.076 5.79003 20.076 6.20891 19.7721 6.41176L11.5122 11.9046C11.1514 12.1443 10.6487 11.9046 10.6487 11.4936L10.6487 8.9382C10.6487 8.67739 10.4328 8.45873 10.1545 8.43502L0.494257 7.5999C0.213056 7.57619 2.65e-05 7.35753 2.64886e-05 7.09672L2.6393e-05 4.91013C-0.00281366 4.64405 0.210216 4.42539 0.491417 4.40168Z" fill="white" />
+											</svg>
+											<div class="step step-3">
+												<div class="step-number">3</div>
+												<div class="step-text">Opportunity</div>
+											</div>
+											<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.491417 4.40168L10.1516 3.56656C10.4328 3.54285 10.6458 3.32419 10.6458 3.06338L10.6458 0.507962C10.6458 0.0943531 11.1486 -0.145382 11.5093 0.0969881L19.7721 5.58718C20.076 5.79003 20.076 6.20891 19.7721 6.41176L11.5122 11.9046C11.1514 12.1443 10.6487 11.9046 10.6487 11.4936L10.6487 8.9382C10.6487 8.67739 10.4328 8.45873 10.1545 8.43502L0.494257 7.5999C0.213056 7.57619 2.65e-05 7.35753 2.64886e-05 7.09672L2.6393e-05 4.91013C-0.00281366 4.64405 0.210216 4.42539 0.491417 4.40168Z" fill="white" />
+											</svg>
+											<div class="step step-4">
+												<div class="step-number">
+													<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M4.75 10.0208L0 5.27083L1.1875 4.08333L4.75 7.64583L12.3958 0L13.5833 1.1875L4.75 10.0208Z" fill="#FF5B35" />
+													</svg>
+												</div>
+												<div class="step-text">Negotiation</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="case_3" class="case animate__ animate__fadeIn wow animated">
+								<div class="case__label">
+									Case 03
+								</div>
+								<div class="case__body">
+									<div class="collumns">
+										<div class="col">
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-3-1.png" alt="" width="120" height="119">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#F95C35" />
+												<path d="M6 9.99512H14" stroke="white" />
+												<path d="M10.0049 6L10.0049 14" stroke="white" />
+											</svg>
+											<circle cx="10" cy="10" r="10" fill="#F95C35" />
+											</svg>
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-1-2.png" class="second-image" alt="" width="159" height="119">
+										</div>
+										<div class="col">
+											<img src="https://flowmate.io/wp-content/uploads/2025/11/case-3-03.png" alt="" width="190" height="190">
+										</div>
+									</div>
+									<div class="col col-last">
+										<img src="https://flowmate.io/wp-content/uploads/2025/11/case-3-4.png" class="image-4" alt="" width="212" height="145">
+										<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M0.491417 4.40168L10.1516 3.56656C10.4328 3.54285 10.6458 3.32419 10.6458 3.06338L10.6458 0.507962C10.6458 0.0943531 11.1486 -0.145382 11.5093 0.0969881L19.7721 5.58718C20.076 5.79003 20.076 6.20891 19.7721 6.41176L11.5122 11.9046C11.1514 12.1443 10.6487 11.9046 10.6487 11.4936L10.6487 8.9382C10.6487 8.67739 10.4328 8.45873 10.1545 8.43502L0.494257 7.5999C0.213056 7.57619 2.65e-05 7.35753 2.64886e-05 7.09672L2.6393e-05 4.91013C-0.00281366 4.64405 0.210216 4.42539 0.491417 4.40168Z" fill="white" />
+										</svg>
+										<img class="create-task" src="https://flowmate.io/wp-content/uploads/2025/11/case-3-5.png" alt="" width="127" height="94">
+										<svg class="last-svg" width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M0.491417 4.40168L10.1516 3.56656C10.4328 3.54285 10.6458 3.32419 10.6458 3.06338L10.6458 0.507962C10.6458 0.0943531 11.1486 -0.145382 11.5093 0.0969881L19.7721 5.58718C20.076 5.79003 20.076 6.20891 19.7721 6.41176L11.5122 11.9046C11.1514 12.1443 10.6487 11.9046 10.6487 11.4936L10.6487 8.9382C10.6487 8.67739 10.4328 8.45873 10.1545 8.43502L0.494257 7.5999C0.213056 7.57619 2.65e-05 7.35753 2.64886e-05 7.09672L2.6393e-05 4.91013C-0.00281366 4.64405 0.210216 4.42539 0.491417 4.40168Z" fill="white" />
+										</svg>
+										<img src="https://flowmate.io/wp-content/uploads/2025/11/case-3-6.png" alt="" width="280" height="145">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<div class="border" style="background-color: #23293d"><img src="https://flowmate.io/wp-content/uploads/2025/09/works-line-bottom.png" alt="border" height="32" style="max-width: 100%; height: auto"></div>
+	
+	
+			<section class="trigger">
+				<div class="container">
+					<div class="trigger__inner">
+						<div class="trigger__title animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+							<span>Universal Trigger–Action Engine.</span> Delivering Configuration and Logic at Scale.
+						</div>
+						<div class="trigger__text animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+							FlowMate transforms unique customer needs into self-service automation. It handles configuration, workflow logic, mapping, authentication, and integrations - while users set up flows in your embedded UI.
+						</div>
+					</div>
+				</div>
+
+				<div class="trigger__inner">
+					<div class="image-list" bis_skin_checked="1">
+						
+						<picture>
+							<source media="(max-width: 1023px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/dotts-vertical.png">
+							<source media="(min-width: 1024)" srcset="https://flowmate.io/wp-content/uploads/2025/11/trigger-dotts.png">
+							<img class="image-list-dotts animate__ animate__opacity wow animated" data-wow-duration="3s" data-wow-offset="300" bis_skin_checked="1" style="visibility: visible; animation-duration: 3s; animation-name: animate-opacity;" decoding="async" width="1086" height="1" style="max-width: 100%; height: auto" src="https://flowmate.io/wp-content/uploads/2025/11/trigger-dotts.png" alt="dotts">
+						</picture>
+
+						<div class="image-list__item trigger-image-first animate__ animate__fadeInLeft wow animated" data-wow-duration="1s" data-wow-offset="300" bis_skin_checked="1" style="visibility: visible; animation-duration: 1s; animation-name: fadeInLeft;">
+							<picture>
+								<source media="(max-width: 1023px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/trigger-01-mobile.png">
+								<source media="(min-width: 1024)" srcset="https://flowmate.io/wp-content/uploads/2025/11/trigger-01.png">
+								<img decoding="async" width="269" height="422" style="max-width: 100%; height: auto" src="https://flowmate.io/wp-content/uploads/2025/11/trigger-01.png" alt="trigger">
+							</picture>
+						</div>
+
+						<div class="image-list__item only-pc animate__ animate__fadeInLeft wow animated" data-wow-duration="1s" data-wow-offset="300" bis_skin_checked="1" style="visibility: visible; animation-duration: 1s; animation-name: fadeInLeft;">
+							<div class="af-list-item-text-1">
+								When this happens <span>in any app ...</span>
+							</div>
+							<img decoding="async" width="303" height="100" style="max-width: 100%; height: auto" src="https://flowmate.io/wp-content/uploads/2025/11/trigger-02.png" alt="trigger">
+						</div>
+
+						<div class="image-list__item image-list__item--center animate__ animate__fadeInLeft wow animated" data-wow-duration="1s" data-wow-offset="300" bis_skin_checked="1" style="visibility: visible; animation-duration: 1s; animation-name: fadeInLeft;">
+							<div class="af-list-item-text-1">
+								When this happens <span>in any app ...</span>
+							</div>
+							<div class="af-list-item-text-2">
+								... then do that <span>in any app.</span>
+							</div>
+							<picture>
+								<source media="(max-width: 1023px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/trigger-center-mobile.png">
+								<source media="(min-width: 1024px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/trigger-03.png">
+								<img decoding="async" width="612" height="612" style="max-width: 100%; height: auto" src="https://flowmate.io/wp-content/uploads/2025/11/trigger-03.png" alt="trigger">
+							</picture>
+						</div>
+
+						<div class="image-list__item only-pc animate__ animate__fadeInLeft wow animated" data-wow-duration="1s" data-wow-offset="300"  bis_skin_checked="1" style="visibility: visible; animation-duration: 1s; animation-name: fadeInLeft;">
+							<div class="af-list-item-text-2">
+								... then do that <span>in any app.</span>
+							</div>
+							<picture>
+								<img decoding="async" width="303" height="100" style="max-width: 100%; height: auto" src="https://flowmate.io/wp-content/uploads/2025/11/trigger-04.png" alt="trigger">
+							</picture>
+						</div>
+
+						<div class="image-list__item trigger-image-last animate__ animate__fadeInLeft wow animated" data-wow-duration="1s" data-wow-offset="300"  bis_skin_checked="1" style="visibility: visible; animation-duration: 1s;  animation-name: fadeInLeft;">
+							<picture>
+								<source media="(max-width: 1023px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/trigger-05-mobile.png">
+								<source media="(min-width: 1024px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/trigger-05.png">
+								<img decoding="async" width="269" height="422" style="max-width: 100%; height: auto" src="https://flowmate.io/wp-content/uploads/2025/11/trigger-05.png" alt="trigger">
+							</picture>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="trigger__inner">
+						<a class="works__button button-large button-large--green animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="100" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+							<div class="button-large__text">
+								Trigger Your First Workflow
+							</div>
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+								<path
+									d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</section>
+
+
+			<div class="border" style="background-color: #f4f4f7">
+				<img src="https://flowmate.io/wp-content/uploads/2025/09/trigger-bottom.png" alt="border" height="32" style="max-width: 100%; height: auto">
+			</div>
+	
+	
+			<section class="user">
+				<div class="container">
+					<div class="user__inner animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+						<div class="user__left">
+							<div class="af-top-text">
+								Example Workflow: <span>Marketing Automation</span>
+							</div>
+							<div class="user__title">
+								<span class="display-block">Turn Complexity Into Simplicity.</span> 
+								Self-Service Configuration Built-In. 
+								<span class="display-block">No Developer Effort Required.</span>   
+							</div>
+							<div class="user__text">
+								Every CRM has different pipelines, stages, and fields. FlowMate retrieves them dynamically and lets users configure workflows in your embedded UI - no developer support needed.
+							</div>
+							<a class="works__button button-large button-large--green animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="100" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+								<div class="button-large__text">
+									Empower Users With Self-Serve Setup
+								</div>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+									<path
+										d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+								</svg>
+							</a>
+						</div>
+						<div class="user__right">
+							<img width="648" height="523" src="https://flowmate.io/wp-content/uploads/2025/11/turn-complexity-x2.png" alt="user">
+						</div>
+					</div>
+				</div> 
+
+				<div class="connect connect--fisrt animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+					<div class="continaer">
+						<div class="connect__inner">
+							<img class="connect__rocket" src="https://flowmate.io/wp-content/uploads/2025/09/rocket-sharp.svg" class="no-picture" alt="rocket sharp">
+							<div class="connect__box">
+								<h2 class="connect__title">
+									Empower Users With Self-Serve Setup
+								</h2>
+								<p class="connect__text">
+									Let customers configure workflows themselves through a branded UI embedded in your app.
+								</p>
+							</div>
+							<a class="connect__button button-large button-large--black" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+								<div class="button-large__text">
+									Start Automating
+								</div>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+									<path
+										d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<div class="border" style="background-color: #6557ff">
+				<img src="https://flowmate.io/wp-content/uploads/2025/08/automation-border.png" alt="border" height="32" style="max-width: 100%; height: auto"/>
+			</div>
+	
+	
+			<section class="integration">
+				<div class="container">
+					<div class="integration__inner animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+						<div class="integration__left">
+							<div class="af-top-text af-top-text-2">
+								Example Workflow: <span>Real-Time Event</span>
+							</div>
+							<div class="integration__title">
+								<span class="cta-color display-block">Enable Real-Time Webhook Listening.</span>
+								React Instantly to 3rd-Party Actions.
+								<span class="cta-color display-block">Trigger Automations in Your Product.</span>
+							</div>
+							<div class="integration__text">
+								When an event happens in eCommerce, FlowMate listens in real time and triggers workflows in your app - from campaigns to ERP delivery or onboarding - with users deciding what happens next in your UI.
+							</div>
+
+							<a class="button-large button-large--green" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+								<div class="button-large__text">
+									Turn 3rd-Party Events Into Actions
+								</div>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z"
+									/>
+									<path
+										d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z"
+									/>
+								</svg>
+							</a>
+						</div>
+						<div class="integration__right">
+							<picture>
+								<source media="(min-width: 768px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/af-automation-agent.png">
+								<img src="https://flowmate.io/wp-content/uploads/2025/11/af-automation-agent-mobile.png" alt="backgound">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<div class="border" style="background-color: #fff">
+				<img src="https://flowmate.io/wp-content/uploads/2025/09/works-line-bottom.png" alt="border" height="32" style="max-width: 100%; height: auto">
+			</div>
+
+
+			<section class="user hris" style="background-color: #fff">
+				<div class="container" bis_skin_checked="1">
+					<div class="user__inner animate__ animate__fadeIn wow animated" data-wow-duration="1s" data-wow-offset="300" bis_skin_checked="1" style="visibility: visible; animation-duration: 1s; animation-name: fadeIn;">
+						<div class="user__left" bis_skin_checked="1">
+							<div class="af-top-text" bis_skin_checked="1">
+								Example Workflow: <span>HRIS <> Employees & Transactions</span>
+							</div>
+							<div class="user__title" bis_skin_checked="1">
+								<span class="display-block">Sync Employee Records Across Apps.</span> 
+								Cover Every HR-Specific Requirement.
+								<span class="display-block">Keep Data Flowing in Both Directions.</span>   
+							</div>
+							<div class="user__text" bis_skin_checked="1">
+								Each customer structures HR data differently - departments, tags, roles, values. FlowMate lets users configure mappings and keeps records in sync, while your app sends back time tracking or certificates automatically.
+							</div>
+							<a class="works__button button-large button-large--green animate__ animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="100" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start" style="visibility: visible; animation-duration: 1s; animation-name: fadeIn;">
+								<div class="button-large__text" bis_skin_checked="1">
+									Sync Employee Data Seamlessly
+								</div>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z"></path>
+									<path d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z"></path>
+								</svg>
+							</a>
+						</div>
+						<div class="user__right" bis_skin_checked="1">
+							<img width="686" height="656" src="https://flowmate.io/wp-content/uploads/2025/11/sync-employee.png" alt="user">
+						</div>
+					</div>
+				</div> 
+
+			</section>
+
+
+			<div class="border" style="background-color: #fff">
+				<img src="https://flowmate.io/wp-content/uploads/2025/09/user-bottom.png" alt="border" height="32" style="max-width: 100%; height: auto">
+			</div>
+
+
+			<section class="app">
+				<div class="container">
+					<div class="app__inner animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+						<div class="app__left">
+							<div class="af-top-text af-top-text-2">
+								Example Workflow: <span>One Event → Many Actions</span>
+							</div>
+							<h2 class="app__title white-title">
+								<span>Trigger Complex Flows Instantly</span> One Event Powers Multiple Actions
+								<span>Across Apps Your Customers Use</span>
+							</h2>
+							<div class="app__text">
+								Some customers need special multi-step workflows across several tools. With FlowMate, one event can trigger an entire automation chain. Your team builds these flows in the no-code builder and releases them for specific customers.
+							</div>
+							<a class="works__button button-large button-large--green animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="100" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+								<div class="button-large__text">
+									Turn One Event Into Many Actions
+								</div>
+								<svg width="24"
+									height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+									<path
+										d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+								</svg>
+							</a>
+						</div>
+						<div class="app__right">
+							<img src="https://flowmate.io/wp-content/uploads/2025/11/flowmate-no-code-builder.png" alt="app">
+						</div>
+					</div>
+				</div>
+			</section>
+	
+	
+			<div class="border" style="background-color: #f4f4f7">
+				<img src="https://flowmate.io/wp-content/uploads/2025/09/app-bottom.png" alt="border" height="32" style="max-width: 100%; height: auto">
+			</div>
+	
+
+			<section class="builder">
+				<div class="container">
+					<div class="builder__inner animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+						<div class="builder__left">
+							<div class="af-top-text">
+								Example Workflow: <span>Adapt to Every Form</span>
+							</div>
+							<div class="builder__title">
+								Every Form, Every Field Covered. <span>Dynamic Mapping of Form Fields.</span> User Configures Workflows Instantly.
+							</div>
+							<div class="builder__text">
+								When a user selects a form in your app, FlowMat retrieves its unique fields dynamically. Users can then map and configure workflows instantly — no dev work required.
+							</div>
+							<a class="works__button button-large button-large--green animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="100" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+								<div class="button-large__text">
+									Make Every Form Workflow-Ready
+								</div>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+									<path
+										d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+								</svg>
+							</a>
+						</div>
+						<div class="builder__right">
+							<img src="https://flowmate.io/wp-content/uploads/2025/11/af-everyform.webp" alt="app">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="border" style="background-color: #f7f7f7">
+				<img src="https://flowmate.io/wp-content/uploads/2025/09/user-bottom.png" alt="border" height="32" style="max-width: 100%; height: auto">
+			</div>
+
+		
+			<section class="app bg-black">
+				<div class="container">
+					<div class="app__inner animate__animated animate__fadeIn wow" data-wow-duration="1s"
+						data-wow-offset="300">
+						<div class="app__left">
+							<div class="af-top-text af-top-text-2">
+								One time <span>Integration</span>
+							</div>
+							<div class="app__title"><span>Integrate Once, Unlock Everything.</span> Unlock All Your Customers’ Apps.
+								<span>Scale Without Developer Overhead.</span>
+							</div>
+							<div class="app__text">Build a single connector to FlowMate and gain access to the ecosystem your customers rely on. Add new integrations by configuration - not projects - so your roadmap stays focused on core product.
+							</div>
+							<a class="works__button button-large button-large--green animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="100" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+								<div class="button-large__text">Integrate Once, Unlock Everything</div><svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+									<path
+										d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+								</svg>
+							</a>
+						</div>
+
+						<div class="app__right">
+							<picture>
+								<source media="(max-width: 1023px)" srcset="https://flowmate.io/wp-content/uploads/2025/11/af-ontime-mobile.png">
+								<img src="https://flowmate.io/wp-content/uploads/2025/11/af-ontime-pc.png" alt="">
+							</picture>
+						</div>
+					</div>
+				</div>
+
+				<div class="connect connect--fisrt animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+					<div class="continaer">
+						<div class="connect__inner">
+							<img class="connect__rocket" src="https://flowmate.io/wp-content/uploads/2025/09/rocket-sharp.svg"
+								class="no-picture" alt="rocket sharp">
+							<div class="connect__box">
+								<h2 class="connect__title">
+									Start Your Workflow Automation Journey Today
+								</h2>
+								<p class="connect__text">
+									Boost revenue and customer retention as a workflow enabler—launch your automation offering in just a few days.
+								</p>
+							</div>
+							<a class="connect__button button-large button-large--black" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+								<div class="button-large__text">
+									Book Your Kickoff
+								</div>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+									<path
+										d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<div class="border" style="background-color: #6557ff">
+				<img src="https://flowmate.io/wp-content/uploads/2025/09/app-bottom.png" alt="border" height="32" style="max-width: 100%; height: auto">
+			</div>
+
+
+			<section class="connectivity">
+				<div class class="container">
+					<div class="connectivity___inner animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+						<div class="connectivity__title animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+							All the Connectors You Need, Guaranteed 
+							<span class="cta-color">Every Endpoint and Webhook Covered</span>
+						</div>
+						<div class="connectivity__text animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+							FlowMate gives you 150+ pre-built connectors and delivers any new one you request within ~48 hours. No limits, no gaps - every automation your customers need, covered.
+						</div>
+						<div class="connectivity__image animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+							<img src="https://flowmate.io/wp-content/uploads/2025/09/connectivity.png" width="1320" height="300" style="max-width: 100%; height: auto" alt="impact">
+						</div>
+						<div class="connectivity__text-bottom animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="200">
+							If there’s a public API and developer access, we’ll build it for you - fast and reliably.
+						</div>
+						<a class="button-large button-large--green animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="100" href="https://heyflow.id/sign-up-ee7670?_gl=1*3s8541*_gcl_au*MjAwOTM5ODM5OC4xNzYxMDY0OTgy#start">
+							<div class="button-large__text">
+								Guarantee Every Integration
+							</div>
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.20414 4.45408C8.64348 4.01474 9.3566 4.01474 9.79594 4.45408L16.5459 11.2041C16.9853 11.6434 16.9853 12.3565 16.5459 12.7959L9.79594 19.5459C9.3566 19.9852 8.64348 19.9852 8.20414 19.5459C7.7648 19.1065 7.7648 18.3934 8.20414 17.9541L14.1582 12L8.20414 6.04587C7.7648 5.60653 7.7648 4.89342 8.20414 4.45408Z" />
+								<path
+									d="M15.6875 10.875C16.3088 10.875 16.8125 11.3787 16.8125 12C16.8125 12.6213 16.3088 13.125 15.6875 13.125H2C1.37868 13.125 0.875 12.6213 0.875 12C0.875 11.3787 1.37868 10.875 2 10.875H15.6875Z" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			
+
+
+			<div class="border" style="background-color: #f7f7f7">
+				<img src="https://flowmate.io/wp-content/uploads/2025/09/works-line-bottom.png" alt="border" height="32" style="max-width: 100%; height: auto">
+			</div>
+
+
+			<section class="features">
+				<div class="container">
+					<div class="features__inner animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-offset="300">
+						<h2 class="features__title">
+							<span>Empower Your App and Automate Any Scenario</span> Instantly at Scale - Easy for Your Users to Activate
+						</h2>
+						<div class="features__text">
+							Automated Flows are one piece of the puzzle. Pair them with Agent Flows to let AI act securely across SaaS apps, and with Dynamic Events to power instant user experiences.
+						</div>
+						<ul class="features-list">
+							<li class="features-list__item">
+								<div class="features-list__left">
+									<div class="features-list__title">
+										Dynamic Events
+									</div>
+									<div class="features-list__text">
+										Trigger real-time automation by sending rich, contextual payloads from your app.
+									</div>
+									<a class="features-list__link" href="https://flowmate.io/dynamic-events/">
+										<div class="features-list__link-text">
+											Learn more
+										</div>
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="#6557ff" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M8.20402 4.39689C8.64336 3.95755 9.35647 3.95755 9.79581 4.39689L16.5458 11.1469C16.9852 11.5862 16.9852 12.2993 16.5458 12.7387L9.79581 19.4887C9.35647 19.928 8.64336 19.928 8.20402 19.4887C7.76468 19.0493 7.76468 18.3362 8.20402 17.8969L14.1581 11.9428L8.20402 5.98868C7.76468 5.54934 7.76468 4.83623 8.20402 4.39689Z"
+											/>
+											<path
+												d="M15.6875 10.8179C16.3088 10.8179 16.8125 11.3216 16.8125 11.9429C16.8125 12.5642 16.3088 13.0679 15.6875 13.0679H2C1.37868 13.0679 0.875 12.5642 0.875 11.9429C0.875 11.3216 1.37868 10.8179 2 10.8179H15.6875Z"
+											/>
+										</svg>
+									</a>
+								</div>
+								<div class="features-list__right"><svg width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M28.4093 8.04898L28.4113 5.71402H28.4396C28.4541 5.71414 28.4734 5.71464 28.4962 5.715C28.5419 5.71572 28.6043 5.71736 28.6818 5.71988C28.837 5.72492 29.0546 5.73433 29.3263 5.75309C29.8695 5.79059 30.6332 5.86444 31.5548 6.00992C33.3917 6.29989 35.8941 6.88088 38.5392 8.05191C43.8888 10.4204 49.8086 15.2173 51.8898 24.6457C53.9036 33.7692 50.819 40.6146 47.258 45.1017C45.4924 47.3264 43.6092 48.9781 42.1691 50.0744C41.4469 50.6241 40.8296 51.0398 40.3839 51.3224C40.1608 51.4639 39.9797 51.5726 39.8498 51.6486C39.7849 51.6865 39.7321 51.7157 39.6935 51.7375C39.6743 51.7483 39.659 51.758 39.6466 51.7648C39.6404 51.7682 39.6344 51.7712 39.63 51.7736L39.6222 51.7775C39.6211 51.7781 39.6199 51.7789 38.506 49.7267L39.6203 51.7785C38.6355 52.313 37.4093 52.073 36.6994 51.2062C35.9912 50.3415 35.9953 49.0964 36.7082 48.2365L36.7218 48.2199C36.7366 48.2014 36.7631 48.168 36.799 48.1213C36.8708 48.0275 36.9811 47.8788 37.1173 47.6818C37.3908 47.2863 37.7634 46.7031 38.1378 45.9777C38.8983 44.5045 39.6055 42.567 39.631 40.4855C39.6468 39.1961 40.7049 38.1632 41.9943 38.1789C43.2838 38.1946 44.3167 39.2536 44.3009 40.5431C44.2978 40.8019 44.2853 41.0578 44.2687 41.3107C46.8638 37.6783 48.844 32.5152 47.3292 25.6525C45.6359 17.9811 40.9553 14.2281 36.6486 12.3214C34.4655 11.355 32.3746 10.8666 30.8263 10.6222C30.7988 10.6179 30.7714 10.6147 30.7443 10.6105V19.2345C30.7443 19.878 30.4783 20.4935 30.0099 20.9347C29.5415 21.3757 28.9118 21.604 28.2697 21.5656H28.2707C28.2627 21.5652 28.2493 21.5642 28.2306 21.5636C28.1851 21.5622 28.1089 21.5606 28.006 21.5607C27.7992 21.561 27.4882 21.5688 27.1056 21.5998C26.331 21.6625 25.311 21.8177 24.2765 22.1711C22.2525 22.8626 20.3477 24.2179 19.7951 27.1652C19.1503 30.6044 19.926 32.6125 20.6417 33.7072C21.0181 34.2827 21.4206 34.6687 21.7091 34.9015C21.8529 35.0176 21.9658 35.094 22.0294 35.1339L22.0763 35.1623C22.0732 35.1606 22.0688 35.1581 22.0636 35.1554C22.061 35.1541 22.0579 35.1531 22.0548 35.1515C22.0532 35.1507 22.0517 35.1495 22.0499 35.1486H22.049C23.1989 35.7267 23.6646 37.1267 23.089 38.2785C22.5124 39.4318 21.1096 39.8998 19.9562 39.3234L21.0001 37.2345C20.0035 39.2278 19.9567 39.318 19.9533 39.3214C19.9528 39.3212 19.9513 39.321 19.9503 39.3205C19.9483 39.3194 19.9457 39.3177 19.9435 39.3166C19.9391 39.3143 19.9339 39.3123 19.9289 39.3097C19.9187 39.3045 19.9072 39.2978 19.8947 39.2912C19.8695 39.2779 19.8392 39.2615 19.8048 39.2423C19.7359 39.2038 19.6489 39.153 19.547 39.089C19.3431 38.961 19.0769 38.7795 18.7755 38.5363C18.1735 38.0504 17.4196 37.3112 16.7335 36.2619C15.3244 34.1066 14.3502 30.8642 15.2052 26.3039C16.1644 21.1888 19.7143 18.794 22.7667 17.7511C23.9741 17.3387 25.1302 17.1253 26.0744 17.0129V8.04898C26.0744 6.75944 27.1198 5.71402 28.4093 5.71402V8.04898Z"
+										fill="#6557FF" />
+									<path
+										d="M27.5595 52.7549C27.545 52.7548 27.5264 52.7543 27.5038 52.7539C27.4581 52.7532 27.3958 52.7525 27.3182 52.75C27.1631 52.745 26.9455 52.7346 26.6737 52.7158C26.1305 52.6783 25.366 52.6045 24.4442 52.459C22.6074 52.169 20.1056 51.5888 17.4608 50.418C12.1111 48.0496 6.19145 43.2518 4.11023 33.8232C2.09642 24.6997 5.18101 17.8543 8.74207 13.3672C10.5074 11.1428 12.39 9.4918 13.83 8.39551C14.5522 7.84566 15.1703 7.43016 15.6161 7.14746C15.8389 7.00617 16.0194 6.89727 16.1493 6.82129C16.2141 6.78336 16.2669 6.75321 16.3055 6.73145C16.3248 6.72061 16.341 6.71191 16.3534 6.70508C16.3594 6.70175 16.3647 6.69866 16.369 6.69629C16.3712 6.69512 16.3732 6.69331 16.3749 6.69238L16.3778 6.69141L17.494 8.74219L16.3798 6.69043C17.3502 6.16367 18.557 6.38842 19.2723 7.22949C19.9861 8.06913 20.0154 9.29325 19.3436 10.166C19.3422 10.1679 19.3379 10.1742 19.3309 10.1836C19.317 10.2024 19.2931 10.2362 19.2596 10.2832C19.1923 10.3778 19.0885 10.527 18.9608 10.7256C18.7043 11.1247 18.3542 11.7144 18.0018 12.4473C17.2873 13.9333 16.6147 15.8998 16.5887 18.0146C16.573 19.3041 15.5149 20.337 14.2255 20.3213C12.936 20.3055 11.9031 19.2474 11.9188 17.958C11.9235 17.5742 11.9435 17.1962 11.9755 16.8252C9.26327 20.4726 7.10898 25.7406 8.67078 32.8164C10.3641 40.4878 15.0447 44.2408 19.3514 46.1475C21.5344 47.1138 23.6245 47.6023 25.1727 47.8467C25.2006 47.8511 25.2283 47.8551 25.2557 47.8594V39.7344C25.2557 39.0697 25.5386 38.4361 26.0341 37.9932C26.5289 37.5508 27.1889 37.3407 27.8485 37.4141C27.8553 37.4147 27.8662 37.4148 27.8807 37.416C27.9216 37.4193 27.9919 37.4252 28.0878 37.4297C28.2804 37.4388 28.5737 37.4447 28.9384 37.4316C29.6754 37.4053 30.6634 37.3001 31.6962 36.9951C33.688 36.4068 35.7662 35.1268 36.7372 32.1416C37.4704 28.6697 36.7105 26.4268 35.9149 25.0908C35.4984 24.3914 35.044 23.8952 34.7089 23.584C34.5424 23.4294 34.408 23.3231 34.327 23.2627C34.294 23.238 34.2697 23.2209 34.2567 23.2119C34.2587 23.2132 34.2611 23.2143 34.2636 23.2158C34.2649 23.2167 34.2669 23.2178 34.2684 23.2188L34.2704 23.2197C33.1752 22.542 32.8354 21.1053 33.5116 20.0088C34.1887 18.9113 35.628 18.5699 36.7255 19.2471L35.4989 21.2344C36.6616 19.3498 36.7231 19.2533 36.7274 19.249C36.7278 19.2493 36.7294 19.2494 36.7303 19.25C36.7322 19.2511 36.7342 19.2527 36.7362 19.2539C36.7401 19.2563 36.7444 19.2589 36.7489 19.2617C36.7581 19.2675 36.7685 19.2747 36.7802 19.2822C36.8038 19.2975 36.8328 19.3164 36.8661 19.3389C36.9327 19.384 37.0182 19.4443 37.119 19.5195C37.3205 19.6698 37.5855 19.8825 37.8866 20.1621C38.4878 20.7205 39.2451 21.5561 39.9276 22.7021C41.3229 25.0453 42.306 28.5236 41.2811 33.2314L41.2274 33.4307C39.6833 38.3711 36.0828 40.5687 33.0184 41.4736C31.886 41.808 30.8166 41.9733 29.9257 42.0498V50.4199C29.9257 51.0392 29.6799 51.6334 29.2421 52.0713C28.8042 52.5091 28.2099 52.7548 27.5907 52.7549V50.4199C27.5907 52.7549 27.589 52.7549 27.5878 52.7549H27.5595ZM19.3407 10.1709C19.3423 10.1687 19.344 10.1668 19.3446 10.166C19.3442 10.1665 19.3434 10.168 19.3427 10.1689L19.3407 10.1709ZM34.2567 23.2119C34.2527 23.2094 34.2498 23.2073 34.2479 23.2061L34.2499 23.207L34.2567 23.2119Z"
+										fill="#6557FF" />
+									</svg>
+								</div>
+							</li>
+							<li class="features-list__item">
+								<div class="features-list__left">
+									<div class="features-list__title">
+										Agent Flows
+									</div>
+									<div class="features-list__text">
+										Let your AI agents trigger secure, permission-based actions across any SaaS app using MCP
+									</div>
+									<a class="features-list__link" href="https://flowmate.io/agent-flows/">
+										<div class="features-list__link-text">
+											Learn more
+										</div>
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="#6557ff" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M8.20402 4.39689C8.64336 3.95755 9.35647 3.95755 9.79581 4.39689L16.5458 11.1469C16.9852 11.5862 16.9852 12.2993 16.5458 12.7387L9.79581 19.4887C9.35647 19.928 8.64336 19.928 8.20402 19.4887C7.76468 19.0493 7.76468 18.3362 8.20402 17.8969L14.1581 11.9428L8.20402 5.98868C7.76468 5.54934 7.76468 4.83623 8.20402 4.39689Z" />
+											<path
+												d="M15.6875 10.8179C16.3088 10.8179 16.8125 11.3216 16.8125 11.9429C16.8125 12.5642 16.3088 13.0679 15.6875 13.0679H2C1.37868 13.0679 0.875 12.5642 0.875 11.9429C0.875 11.3216 1.37868 10.8179 2 10.8179H15.6875Z" />
+										</svg>
+									</a>
+								</div>
+								<div class="features-list__right">
+									<svg width="55" height="57" viewBox="0 0 55 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_218_14936)">
+											<path
+												d="M5.32686 28.3737L27.4329 5.9422C28.0141 5.35411 28.6765 4.91757 29.386 4.626C30.4494 4.18781 31.6216 4.07744 32.7386 4.29653C33.8572 4.51727 34.9142 5.05924 35.7844 5.9422C36.364 6.53194 36.7942 7.20405 37.0816 7.92392C37.5134 9.00292 37.6222 10.1923 37.4063 11.3256C37.1887 12.4606 36.6546 13.533 35.7844 14.416L19.7828 30.6519C19.0214 31.4245 19.0214 32.6748 19.7828 33.4474C20.5443 34.22 21.7765 34.22 22.538 33.4474L38.5395 17.2115C39.4925 16.2445 40.2134 15.1194 40.6923 13.9202C41.4115 12.1213 41.5885 10.161 41.2313 8.28139C40.8742 6.4018 39.9715 4.59799 38.5395 3.14671C37.5865 2.17973 36.4776 1.44832 35.2957 0.962367C33.5228 0.234253 31.5908 0.0530484 29.7383 0.415458C27.8859 0.777867 26.1081 1.69377 24.6778 3.14671L2.5701 25.5782C1.80866 26.3508 1.80866 27.6011 2.5701 28.3737C3.33154 29.1463 4.5638 29.1463 5.32524 28.3737H5.32686Z"
+												fill="#6557FF" />
+											<path
+												d="M28.9673 26.9305L38.5397 17.218C39.1209 16.6299 39.7833 16.1933 40.4928 15.9018C41.5562 15.4636 42.7284 15.3532 43.8454 15.5723C44.964 15.793 46.0209 16.335 46.8911 17.218C47.4707 17.8077 47.901 18.4798 48.1883 19.1997C48.6202 20.2787 48.729 21.468 48.5131 22.6014C48.2955 23.7364 47.7614 24.8088 46.8911 25.6917L27.6101 45.2553C27.1944 45.677 26.8762 46.1712 26.6668 46.6983C26.3518 47.4874 26.2739 48.344 26.4314 49.1676C26.5872 49.9897 26.9866 50.7853 27.6101 51.4179L31.7858 55.6548C32.5472 56.4274 33.7795 56.4274 34.5409 55.6548C35.3024 54.8822 35.3024 53.6319 34.5409 52.8593L30.3652 48.6224C30.323 48.5795 30.297 48.5367 30.2775 48.4889C30.2483 48.4181 30.2402 48.3341 30.2564 48.2567C30.2726 48.1776 30.3035 48.115 30.3652 48.0508L49.6463 28.4872C50.5993 27.5203 51.3202 26.3952 51.7991 25.1959C52.5183 23.397 52.6953 21.4367 52.3381 19.5571C51.9809 17.6776 51.0782 15.8737 49.6463 14.4225C48.6933 13.4555 47.5844 12.7241 46.4025 12.2381C44.6296 11.5084 42.6976 11.3288 40.8451 11.6912C38.9927 12.0536 37.2149 12.9695 35.7845 14.4225L26.2122 24.135C25.4508 24.9076 25.4508 26.1579 26.2122 26.9305C26.9736 27.7031 28.2059 27.7031 28.9673 26.9305Z"
+												fill="#6557FF" />
+											<path
+												d="M41.5992 19.3946L25.1106 36.1247C24.5293 36.7128 23.8669 37.1493 23.1574 37.4409C22.094 37.8791 20.9218 37.9895 19.8048 37.7704C18.6862 37.5496 17.6293 37.0077 16.7591 36.1247C16.1795 35.535 15.7492 34.8629 15.4619 34.143C15.03 33.064 14.9212 31.8746 15.1372 30.7413C15.3547 29.6063 15.8889 28.5339 16.7591 27.6509L32.7606 11.415C33.5221 10.6424 33.5221 9.39207 32.7606 8.61948C31.9992 7.84689 30.7669 7.84689 30.0055 8.61948L14.004 24.8554C13.0509 25.8224 12.3301 26.9475 11.8511 28.1468C11.1319 29.9456 10.955 31.9059 11.3121 33.7855C11.6693 35.6651 12.572 37.4689 14.004 38.9202C14.957 39.8872 16.0658 40.6186 17.2478 41.1045C19.0207 41.8343 20.9527 42.0139 22.8051 41.6515C24.6576 41.289 26.4354 40.3731 27.8657 38.9202L44.3543 22.1901C45.1157 21.4175 45.1157 20.1672 44.3543 19.3946C43.5929 18.622 42.3606 18.622 41.5992 19.3946Z"
+												fill="#6557FF" />
+										</g>
+										<defs>
+											<clipPath id="clip0_218_14936">
+												<rect width="54.5164" height="55.9998" fill="white" transform="translate(0 0.234375)" />
+											</clipPath>
+										</defs>
+									</svg>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		
+	</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+	const mediaQuery = window.matchMedia('(max-width: 820px)');
+
+	const getTabs = () => document.querySelectorAll('.case');
+
+	const initializeTabs = (tabs) => {
+		tabs.forEach(tab => {
+			const body = tab.querySelector('.case__body');
+			if (body) body.style.display = 'none';
+		});
+
+		const firstBody = tabs[0]?.querySelector('.case__body');
+		if (firstBody) {
+			firstBody.style.display = 'block';
+			tabs[0].classList.add('active-tab');
+		}
+	};
+
+	const setupListeners = (tabs) => {
+		tabs.forEach(tab => {
+			tab.addEventListener('click', function () {
+				tabs.forEach(t => {
+					t.classList.remove('active-tab');
+					const body = t.querySelector('.case__body');
+					if (body) body.style.display = 'none';
+				});
+
+				this.classList.add('active-tab');
+				const activeBody = this.querySelector('.case__body');
+				if (activeBody) activeBody.style.display = 'block';
+			});
+		});
+	};
+
+	const resetTabs = (tabs) => {
+		tabs.forEach(tab => {
+			tab.classList.remove('active-tab');
+			const body = tab.querySelector('.case__body');
+			if (body) body.style.display = '';
+			const clone = tab.cloneNode(true);
+			tab.parentNode.replaceChild(clone, tab);
+		});
+	};
+
+	const handleMediaChange = (media) => {
+		const tabs = getTabs();
+		if (tabs.length === 0) return;
+
+		if (media.matches) {
+			initializeTabs(tabs);
+			setupListeners(tabs);
+		} else {
+			resetTabs(tabs);
+		}
+	};
+
+	// Початкова перевірка
+	handleMediaChange(mediaQuery);
+
+	// Реакція на зміну ширини
+	mediaQuery.addEventListener('change', handleMediaChange);
+
+	// Перевірка при кожному resize (для Safari або інших випадків)
+	window.addEventListener('resize', () => {
+		handleMediaChange(mediaQuery);
+	});
+});
+</script>
+
+
+
+	<script type="module">"use strict";(()=>{var P=Object.create;var k=Object.defineProperty;var q=Object.getOwnPropertyDescriptor;var I=Object.getOwnPropertyNames;var V=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var B=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports);var j=(a,r,u,d)=>{if(r&&typeof r=="object"||typeof r=="function")for(let h of I(r))!z.call(a,h)&&h!==u&&k(a,h,{get:()=>r[h],enumerable:!(d=q(r,h))||d.enumerable});return a};var F=(a,r,u)=>(u=a!=null?P(V(a)):{},j(r||!a||!a.__esModule?k(u,"default",{value:a,enumerable:!0}):u,a));var E=B((m,C)=>{(function(a,r){if(typeof define=="function"&&define.amd)define(["module","exports"],r);else if(typeof m!="undefined")r(C,m);else{var u={exports:{}};r(u,u.exports),a.WOW=u.exports}})(m,function(a,r){"use strict";Object.defineProperty(r,"__esModule",{value:!0});var u,d;function h(s,n){if(!(s instanceof n))throw new TypeError("Cannot call a class as a function")}var f=(function(){function s(n,t){for(var e=0;e<t.length;e++){var i=t[e];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(n,i.key,i)}}return function(n,t,e){return t&&s(n.prototype,t),e&&s(n,e),n}})();function g(s,n){return n.indexOf(s)>=0}function N(s,n){for(var t in n)if(s[t]==null){var e=n[t];s[t]=e}return s}function O(s){return/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(s)}function M(s){var n=arguments.length<=1||arguments[1]===void 0?!1:arguments[1],t=arguments.length<=2||arguments[2]===void 0?!1:arguments[2],e=arguments.length<=3||arguments[3]===void 0?null:arguments[3],i=void 0;return document.createEvent!=null?(i=document.createEvent("CustomEvent"),i.initCustomEvent(s,n,t,e)):document.createEventObject!=null?(i=document.createEventObject(),i.eventType=s):i.eventName=s,i}function _(s,n){s.dispatchEvent!=null?s.dispatchEvent(n):n in(s!=null)?s[n]():"on"+n in(s!=null)&&s["on"+n]()}function v(s,n,t){s.addEventListener!=null?s.addEventListener(n,t,!1):s.attachEvent!=null?s.attachEvent("on"+n,t):s[n]=t}function w(s,n,t){s.removeEventListener!=null?s.removeEventListener(n,t,!1):s.detachEvent!=null?s.detachEvent("on"+n,t):delete s[n]}function L(){return"innerHeight"in window?window.innerHeight:document.documentElement.clientHeight}var T=window.WeakMap||window.MozWeakMap||(function(){function s(){h(this,s),this.keys=[],this.values=[]}return f(s,[{key:"get",value:function(t){for(var e=0;e<this.keys.length;e++){var i=this.keys[e];if(i===t)return this.values[e]}}},{key:"set",value:function(t,e){for(var i=0;i<this.keys.length;i++){var o=this.keys[i];if(o===t)return this.values[i]=e,this}return this.keys.push(t),this.values.push(e),this}}]),s})(),b=window.MutationObserver||window.WebkitMutationObserver||window.MozMutationObserver||(d=u=(function(){function s(){h(this,s),typeof console!="undefined"&&console!==null&&(console.warn("MutationObserver is not supported by your browser."),console.warn("WOW.js cannot detect dom mutations, please call .sync() after loading new content."))}return f(s,[{key:"observe",value:function(){}}]),s})(),u.notSupported=!0,d),p=window.getComputedStyle||function(n){var t=/(\\\\-([a-z]){1})/g;return{getPropertyValue:function(i){i==="float"&&(i="styleFloat"),t.test(i)&&i.replace(t,function(l,c){return c.toUpperCase()});var o=n.currentStyle;return(o!=null?o[i]:void 0)||null}}},W=(function(){function s(){var n=arguments.length<=0||arguments[0]===void 0?{}:arguments[0];h(this,s),this.defaults={boxClass:"wow",animateClass:"animated",offset:0,mobile:!0,live:!0,callback:null,scrollContainer:null},this.animate=(function(){return"requestAnimationFrame"in window?function(e){return window.requestAnimationFrame(e)}:function(e){return e()}})(),this.vendors=["moz","webkit"],this.start=this.start.bind(this),this.resetAnimation=this.resetAnimation.bind(this),this.scrollHandler=this.scrollHandler.bind(this),this.scrollCallback=this.scrollCallback.bind(this),this.scrolled=!0,this.config=N(n,this.defaults),n.scrollContainer!=null&&(this.config.scrollContainer=document.querySelector(n.scrollContainer)),this.animationNameCache=new T,this.wowEvent=M(this.config.boxClass)}return f(s,[{key:"init",value:function(){this.element=window.document.documentElement,g(document.readyState,["interactive","complete"])?this.start():v(document,"DOMContentLoaded",this.start),this.finished=[]}},{key:"start",value:function(){var t=this;if(this.stopped=!1,this.boxes=[].slice.call(this.element.querySelectorAll("."+this.config.boxClass)),this.all=this.boxes.slice(0),this.boxes.length)if(this.disabled())this.resetStyle();else for(var e=0;e<this.boxes.length;e++){var i=this.boxes[e];this.applyStyle(i,!0)}if(this.disabled()||(v(this.config.scrollContainer||window,"scroll",this.scrollHandler),v(window,"resize",this.scrollHandler),this.interval=setInterval(this.scrollCallback,50)),this.config.live){var o=new b(function(l){for(var c=0;c<l.length;c++)for(var S=l[c],y=0;y<S.addedNodes.length;y++){var H=S.addedNodes[y];t.doSync(H)}});o.observe(document.body,{childList:!0,subtree:!0})}}},{key:"stop",value:function(){this.stopped=!0,w(this.config.scrollContainer||window,"scroll",this.scrollHandler),w(window,"resize",this.scrollHandler),this.interval!=null&&clearInterval(this.interval)}},{key:"sync",value:function(){b.notSupported&&this.doSync(this.element)}},{key:"doSync",value:function(t){if((typeof t=="undefined"||t===null)&&(t=this.element),t.nodeType===1){t=t.parentNode||t;for(var e=t.querySelectorAll("."+this.config.boxClass),i=0;i<e.length;i++){var o=e[i];g(o,this.all)||(this.boxes.push(o),this.all.push(o),this.stopped||this.disabled()?this.resetStyle():this.applyStyle(o,!0),this.scrolled=!0)}}}},{key:"show",value:function(t){return this.applyStyle(t),t.className=t.className+" "+this.config.animateClass,this.config.callback!=null&&this.config.callback(t),_(t,this.wowEvent),v(t,"animationend",this.resetAnimation),v(t,"oanimationend",this.resetAnimation),v(t,"webkitAnimationEnd",this.resetAnimation),v(t,"MSAnimationEnd",this.resetAnimation),t}},{key:"applyStyle",value:function(t,e){var i=this,o=t.getAttribute("data-wow-duration"),l=t.getAttribute("data-wow-delay"),c=t.getAttribute("data-wow-iteration");return this.animate(function(){return i.customStyle(t,e,o,l,c)})}},{key:"resetStyle",value:function(){for(var t=0;t<this.boxes.length;t++){var e=this.boxes[t];e.style.visibility="visible"}}},{key:"resetAnimation",value:function(t){if(t.type.toLowerCase().indexOf("animationend")>=0){var e=t.target||t.srcElement;e.className=e.className.replace(this.config.animateClass,"").trim()}}},{key:"customStyle",value:function(t,e,i,o,l){return e&&this.cacheAnimationName(t),t.style.visibility=e?"hidden":"visible",i&&this.vendorSet(t.style,{animationDuration:i}),o&&this.vendorSet(t.style,{animationDelay:o}),l&&this.vendorSet(t.style,{animationIterationCount:l}),this.vendorSet(t.style,{animationName:e?"none":this.cachedAnimationName(t)}),t}},{key:"vendorSet",value:function(t,e){for(var i in e)if(e.hasOwnProperty(i)){var o=e[i];t[""+i]=o;for(var l=0;l<this.vendors.length;l++){var c=this.vendors[l];t[""+c+i.charAt(0).toUpperCase()+i.substr(1)]=o}}}},{key:"vendorCSS",value:function(t,e){for(var i=p(t),o=i.getPropertyCSSValue(e),l=0;l<this.vendors.length;l++){var c=this.vendors[l];o=o||i.getPropertyCSSValue("-"+c+"-"+e)}return o}},{key:"animationName",value:function(t){var e=void 0;try{e=this.vendorCSS(t,"animation-name").cssText}catch(i){e=p(t).getPropertyValue("animation-name")}return e==="none"?"":e}},{key:"cacheAnimationName",value:function(t){return this.animationNameCache.set(t,this.animationName(t))}},{key:"cachedAnimationName",value:function(t){return this.animationNameCache.get(t)}},{key:"scrollHandler",value:function(){this.scrolled=!0}},{key:"scrollCallback",value:function(){if(this.scrolled){this.scrolled=!1;for(var t=[],e=0;e<this.boxes.length;e++){var i=this.boxes[e];if(i){if(this.isVisible(i)){this.show(i);continue}t.push(i)}}this.boxes=t,!this.boxes.length&&!this.config.live&&this.stop()}}},{key:"offsetTop",value:function(t){for(;t.offsetTop===void 0;)t=t.parentNode;for(var e=t.offsetTop;t.offsetParent;)t=t.offsetParent,e+=t.offsetTop;return e}},{key:"isVisible",value:function(t){var e=t.getAttribute("data-wow-offset")||this.config.offset,i=this.config.scrollContainer&&this.config.scrollContainer.scrollTop||window.pageYOffset,o=i+Math.min(this.element.clientHeight,L())-e,l=this.offsetTop(t),c=l+t.clientHeight;return l<=o&&c>=i}},{key:"disabled",value:function(){return!this.config.mobile&&O(navigator.userAgent)}}]),s})();r.default=W,a.exports=r.default})});var A=F(E(),1);function D(){let a=document.querySelector(".js-burger");a&&a.addEventListener("click",function(){let r=this.closest("body");r&&r.classList.toggle("header--active")})}function Y(){let a=document.querySelectorAll(".tabs__button");a&&a.forEach(r=>{r.addEventListener("click",function(){a.forEach(f=>f.classList.remove("tabs__button--active")),this.classList.add("tabs__button--active");let u=this.closest(".tabs");if(!u)return;let d=u.querySelectorAll(".tabs__contents-image");d.forEach(f=>f.classList.remove("tabs__contents-image--active"));let h=this.dataset.contentTab;if(d.forEach(f=>h===f.dataset.contentTab?f.classList.add("tabs__contents-image--active"):null),window.innerWidth<=768){let f=this.getBoundingClientRect().top+window.scrollY;window.scrollTo({top:f,behavior:"smooth"})}})})}function R(){let a=document.querySelector(".header-js");a&&window.addEventListener("scroll",()=>{window.scrollY>50?a.classList.add("sticky"):a.classList.remove("sticky")})}function U(){new A.default().init()}D();Y();R();U();})();
+//# sourceMappingURL=main.min.js.map
+</script>

@@ -1,0 +1,212 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+#top-menu .menu-item-has-children>a:first-child:after, #et-secondary-nav .menu-item-has-children>a:first-child:after {
+    right: -4px;
+    top: 12px;
+}
+
+
+
+
+
+@media only screen and (min-width: 981px) {
+    .et_header_style_left #et-top-navigation nav>#top-menu>li.menu-item-1407>a {
+        padding: 11px 12px 11px 12px !important;
+    }
+}
+
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu {
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 100;
+	background: #fff;
+	border: 1px solid #e9e7ff;
+	border-radius: 15px;
+	box-shadow: 0 8px 16px rgba(19, 16, 52, 0.1);
+	padding: 20px 0;
+}
+
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children:hover > .sub-menu {
+	visibility: visible;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+#top-menu > .menu-item-has-children > .sub-menu {
+	width: 666px !important;
+	border: 1px solid #e9e7ff;
+	border-radius: 20px;
+	padding: 30px;
+	max-width: 666px;
+	box-shadow: 0 11px 20px -5px rgba(19, 16, 52, 0.1);
+	background: #fff;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > a {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #232343 !important;
+	white-space: nowrap;
+	padding: 0 !important;
+	cursor: initial;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > a:hover {
+	background-color: #fff;
+}
+#top-menu > .menu-item-has-children > .sub-menu li {
+	padding: 0;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children {
+	position: relative;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu {
+	visibility: visible !important;
+    opacity: 1 !important;
+	width: fit-content !important;
+	position: relative;
+	top: initial !important;
+	right: initial !important;
+	bottom: initial !important;
+	left: initial !important;
+	display: flex !important;
+	border: initial !important;
+	box-shadow: initial !important;
+	gap: 45px;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item {
+	padding: 0 !important;
+	white-space: nowrap !important;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a {
+	padding: 0 !important;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	text-align: center;
+	color: #232343;
+	display: flex;
+	gap: 10px;
+	position: relative;
+	width: fit-content;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a:before {
+	content: '';
+	width: 40px;
+	flex: 0 0 40px;
+	height: 40px;
+	border-radius: 11px;
+	background-color: #ecebff;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-dynamic-flows.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item:hover {
+	background-color: #fff;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .current-menu-item, 
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .current-menu-item a {
+	cursor: initial !important;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .current-menu-item a:before {
+	background-color: #6557FF;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-dynamic-flows-white.svg') !important;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .current-menu-item a[href*="agent-flows"]:before {
+	background-color: #6557FF;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-agent2-flows-white.svg') !important;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .current-menu-item a[href*="automated-flows"]:before {
+	background-color: #6557FF;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-automated-flows-white.svg') !important;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .current-menu-item a[href*="flow-builder"]:before {
+	background-color: #6557FF;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/flow-builder-white.svg') !important;
+}
+
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item:hover a:before {
+	background-color: #6557FF;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-dynamic-flows-white.svg');
+}
+
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a[href*="agent-flows"]:before {
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-agent2-flows.svg');
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item:hover a[href*="agent-flows"]:before {
+	background-color: #6557FF;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-agent2-flows-white.svg');
+}
+
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a[href*="automated-flows"]:before {
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-automated-flows.svg');
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item:hover a[href*="automated-flows"]:before {
+	background-color: #6557FF;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/icon-automated-flows-white.svg');
+}
+
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a[href*="flow-builder"]:before {
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/flow-builder.svg');
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item:hover a[href*="flow-builder"]:before {
+	background-color: #6557FF;
+	background-image: url('https://flowmate.io/wp-content/uploads/2025/11/flow-builder-white.svg');
+}
+
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item:hover a {
+	background-color: #fff;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50px;
+	bottom: 0;
+	width: calc(100% - 50px);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 160%;
+	color: #232343;
+	opacity: 0.7;
+	text-align: left;
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a[href*="dynamic-events"]:after {
+	content: 'Event-driven flows';
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a[href*="agent-flows"]:after {
+	content: 'AI automation';
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a[href*="automated-flows"]:after {
+	content: 'Smart workflows';
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item a[href*="flow-builder"]:after {
+	content: 'Build flows no-code';
+}
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .current-menu-item a, #top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .current-menu-item a:after,
+#top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item:hover a, #top-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item:hover a:after {
+	color: #6557FF;
+}
+
+#top-menu li .menu-item-has-children>a:first-child:after {
+   display: none !important;
+}
