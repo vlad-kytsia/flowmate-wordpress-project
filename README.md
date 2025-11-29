@@ -9,6 +9,18 @@ https://flowmate.io/
 
 ---
 
+## 📸 Preview
+➡️ [Homepage Screenshot](./screenshots/homepage-first-screen.png)
+
+---
+
+## 🎥 Demo Video
+The demo video shows page interactions, animations, and mobile responsiveness.
+
+➡️ [Demo Video](./demo-video/flowmate.mp4)
+
+---
+
 ## 🧑‍💻 My Role
 - Front-End Developer  
 - WordPress Developer  
